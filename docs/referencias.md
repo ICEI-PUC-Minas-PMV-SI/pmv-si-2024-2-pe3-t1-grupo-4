@@ -1,6 +1,15 @@
 # REFERÊNCIAS
 
-Referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+BAHIA, Gabriel Torres. Solidarize: aplicação web para busca de organizações não-governamentais. PUC Goiás, 2023.
+
+DIAS, Reinaldo. Planejamento do turismo no Brasil. São Paulo: Atlas, 2003
+
+LEÃO, Débora Seibert de. Bem coletivo: proposta de interface para ferramenta digital de busca e oferta de trabalho voluntário com foco no design. Univates, 2017.
+
+REKHA, Rizwan. Empowering NGOs to Scale: The Fusion of Technology and Philanthropy. The Philanthropist, Canadá, 29 mar. 2023. Disponível em: https://thephilanthropist.org/article/empowering-ngos-to-scale-the-fusion-of-technology-and-philanthropy. Acesso em: 21 ago. 2024.
+
+
+<!--- Esas referências foram utilizadas na "Justficativa" se for manter, descomentá-las aqui. 
 
 [1] - IBGE. **As fundações privadas e associações sem fins lucrativos no Brasil : 2016**. Rio de Janeiro: IBGE, 2019
 
@@ -12,4 +21,4 @@ Referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trab
 
 [5] - Heller, E. (2021). A Psicologia das Cores: Como as Cores Afetam a Emoção e a Razão. Olhares.
 
----
+--->
