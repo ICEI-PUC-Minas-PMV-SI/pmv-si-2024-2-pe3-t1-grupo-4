@@ -31,27 +31,21 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Deve existir uma página inicial (_landing page_). | Esta página deve fornecer uma visão geral clara e atrativa dos objetivos da plataforma, destacar seus principais recursos e benefícios e direcionar os visitantes para ações específicas, como cadastro, exploração de demandas ou oferta de ajuda. |
-| RF2 | A aplicação deve permitir que as ONGs se cadastrem. |	O processo de cadastro deve incluir o preenchimento de informações essenciais, como nome da ONG, CNPJ, endereço, telefone, e-mail e senha. |
-| RF3 | A aplicação deve permitir que as ONGs acessem o sistema. | Fornecer um sistema de autenticação seguro, permitindo que as ONGs acessem suas contas por meio de um processo de login. |
-| RF4 | A aplicação deve oferecer um processo de recuperação de senha. | O processo de recuperação de senha deve ser iniciado por meio de um link na tela de login, em que o usuário será solicitado a informar o e-mail cadastrado. Após a submissão, o sistema deve enviar um e-mail contendo um link seguro para redefinição da senha. |
-| RF5 | A aplicação deve apresentar uma página de perfil para as ONGs. | Apresenta uma página exclusiva para cada ONG, contendo informações sobre a organização, depoimentos dos voluntários e últimas demandas. |
-| RF6 | A aplicação deve permitir que as ONGs gerenciem suas informações de perfil. | As ONGs poderão visualizar, editar e atualizar dados como nome da organização, CNPJ, endereço, telefone, e-mail de contato, descrição da ONG, redes sociais, e outras informações relevantes. |
-| RF7 | A aplicação deve possibilitar que as ONGs divulguem solicitações de ajuda técnica. | As ONGs poderão descrever suas necessidades específicas, como suporte em tecnologia, manutenção de sistemas, desenvolvimento de websites, entre outros. Cada solicitação deverá incluir informações detalhadas, como título, descrição e tipo de ajuda necessária. |
-| RF8 | A aplicação deve permitir que as ONGs vejam e administrem suas demandas. | As ONGs devem poder acessar uma área dedicada onde todas as suas demandas ativas e anteriores sejam listadas, possibilitando a visualização do  status de cada solicitação, edição, exclusão e acompanhamento de respostas ou ofertas de ajuda recebidas. Poderá também filtrar pelo status (aberta ou finalizada) para facilitar a leitura. |
-| RF9 | A aplicação deve permitir que as ONGs marquem as solicitações como concluídas ou encerradas. | Essa funcionalidade deve estar disponível no painel de administração de demandas da ONG, e o  status da solicitação deve ser atualizado na plataforma para que outros usuários saibam que ela já foi finalizada. |
-| RF10 | A página da demanda cadastrada pela ONG deve exibir uma lista de todos os voluntários que tiveram a candidatura aceita. | Essa funcionalidade permitirá que a ONG visualize de forma clara os voluntários que foram aprovados e estão envolvidos na demanda. |
-| RF11 | Os voluntários devem poder se voluntariar por meio de formulário de contato para trabalhar em projetos específicos das ONGs. | Cada projeto divulgado pela ONG deve ter um botão ou link para voluntariado, que redirecionará o voluntário para um formulário no qual poderá fornecer informações de contato, habilidades relevantes e uma breve mensagem de apresentação, indicando seu interesse e disponibilidade. |
-| RF12 | Os voluntários devem receber um e-mail quando uma ONG expressa interesse em seu perfil. | Este e-mail deve informar o voluntário sobre o interesse da ONG e fornecer detalhes relevantes para que ele possa tomar ações apropriadas. |
-| RF13 | Na página da demanda cadastrada pela ONG, deve ter um botão solicitando ao voluntário um feedback sobre sua experiência. | A página deve incluir um botão que permita enviar um link por e-mail aos voluntários solicitando que deixem um comentário sobre sua experiência com a demanda. Este recurso ajudará a ONG a obter um retorno valioso dos voluntários. |
-| RF14 | A aplicação deve apresentar uma página para os depoimentos dos voluntários. | Esta página deve ser acessada exclusivamente por meio de um link recebido via e-mail e deve conter um formulário para o preenchimento do depoimento. |
-| RF15 | Os depoimentos dos voluntários devem ser disponibilizados no perfil da ONG que fez a solicitação. | Esta funcionalidade permitirá que a ONG visualize e compartilhe o feedback dos voluntários sobre suas experiências com a demanda. |
-| RF16 | A aplicação deve apresentar uma página contendo as últimas demandas criadas pelas ONGs. | Essa página deve listar as demandas com informações como o título e a descrição resumida. A página deve ser de fácil navegação e permitir que os usuários filtrem as demandas pela localização (presencial ou remota). |
-| RF17 | A aplicação deve apresentar a página “Como Começar”. | Essa página deve conter instruções claras sobre os principais processos, como o cadastro de ONGs, publicação de demandas, voluntariado em projetos, e navegação geral da plataforma. |
-| RF18 | A aplicação deve conter a página “Perguntas Frequentes”. | Esta página deve proporcionar aos usuários respostas para as dúvidas mais comuns relacionadas ao uso da aplicação e seus serviços. |
-| RF19 | A aplicação deve apresentar a página “Sobre o Voluntariado”. | Esta página deve fornecer informações detalhadas sobre o programa de voluntariado, seus objetivos, e como os usuários podem se envolver. |
-| RF20 | A aplicação deve apresentar a página “Por Que Ser Voluntário?”. | Esta página deve destacar as razões e benefícios de participar em atividades de voluntariado, incentivando os usuários a contribuirem e apoiarem a causa. |
-| RF21 | A aplicação deve apresentar a página “Histórias de Sucesso”. | Esta página deve apresentar relatos e exemplos de casos bem-sucedidos relacionados ao uso da aplicação ou ao impacto positivo das ações apoiadas por ela. |
+| RF1 | Gerenciar perfil das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil. |
+| RF2 | Gerenciar o acesso das ONGs. | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. |
+| RF3| Validar senha. | A aplicação deve permitir que as ONGs validem a senha de login. |
+| RF4 | Entrar no sistema. | A aplicação deve permitir que as ONGs façam login. |
+| RF5 | Gerenciar as demandas das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem ou excluem informações sobre as demandas. |
+| RF6 | Visualizar as demandas. | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário disponíveis, incluindo a descrição da vaga e localização. |
+| RF7 | Criar uma inscrição de voluntariado. | O sistema deve permitir ao voluntário se inscrever para uma oportunidade de trabalho disponível. |
+| RF8 | Notificar voluntário. | O voluntário deve receber um e-mail quando uma ONG expressa interesse em seu perfil. |
+| RF9 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF10 | Visualizar a página “Como Começar”. | A aplicação deve permitir que usuários visualizem essa página com instruções sobre os principais processos, como o cadastro de ONGs, voluntariado em projetos e navegação geral da plataforma. |
+| RF11 | Visualizar a página “Perguntas Frequentes”. | A aplicação deve permitir que usuários visualizem essa página com as respostas para as dúvidas mais comuns relacionadas ao uso da aplicação e seus serviços. |
+| RF12 | Visualizar a página “Sobre o Voluntariado”. | A aplicação deve permitir que usuários visualizem a página com informações sobre o programa de voluntariado, seus objetivos, e como os usuários podem se envolver. |
+| RF13 | Visualizar a página “Por Que Ser Voluntário?”. | A aplicação deve permitir que usuários visualizem a página que descreve os benefícios de participar em atividades de voluntariado, incentivando os usuários a contribuírem e apoiarem a causa. |
+| RF14 | Visualizar a página “Histórias de Sucesso”. | A aplicação deve permitir que usuários visualizem a página que apresenta relatos e exemplos de casos bem-sucedidos relacionados ao uso da aplicação ou ao impacto positivo das ações apoiadas por ela. |
+| RF15 | Sair do sistema. | A aplicação deve permitir que as ONGs saiam do sistema. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
@@ -71,8 +65,7 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | Ator | Descrição |
 |--------------------|------------------------------------|
 | Representante da ONG |	Usuário que representa uma ONG e busca suporte técnico ou colaboração em projetos tecnológicos. É responsável por criar e gerenciar solicitações de suporte, acompanhar o progresso dos projetos e assegurar que as necessidades tecnológicas da ONG sejam atendidas. |
-| Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos.
-|
+| Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos. | 
 
 ## 3.4 Modelagem do Sistema
 
