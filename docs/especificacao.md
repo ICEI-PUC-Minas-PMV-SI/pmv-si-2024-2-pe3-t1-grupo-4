@@ -31,15 +31,15 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar perfil das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil. |
-| RF2 | Gerenciar o acesso das ONGs. | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. |
+| RF1 | Gerenciar o acesso das ONGs. | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. |
+| RF2 | Entrar no sistema. | A aplicação deve permitir que as ONGs façam login. |
 | RF3| Validar senha. | A aplicação deve permitir que as ONGs validem a senha de login. |
-| RF4 | Entrar no sistema. | A aplicação deve permitir que as ONGs façam login. |
+| RF4 | Gerenciar perfil das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil. |
 | RF5 | Gerenciar as demandas das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem ou excluem informações sobre as demandas. |
 | RF6 | Visualizar as demandas. | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário disponíveis, incluindo a descrição da vaga e localização. |
-| RF7 | Criar uma inscrição de voluntariado. | O sistema deve permitir ao voluntário se inscrever para uma oportunidade de trabalho disponível. |
-| RF8 | Notificar voluntário. | O voluntário deve receber um e-mail quando uma ONG expressa interesse em seu perfil. |
-| RF9 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF7 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF8 | Criar uma inscrição de voluntariado. | O sistema deve permitir ao voluntário se inscrever para uma oportunidade de trabalho disponível. |
+| RF9 | Notificar voluntário. | O voluntário deve receber um e-mail quando uma ONG expressa interesse em seu perfil. |
 | RF10 | Visualizar a página “Como Começar”. | A aplicação deve permitir que usuários visualizem essa página com instruções sobre os principais processos, como o cadastro de ONGs, voluntariado em projetos e navegação geral da plataforma. |
 | RF11 | Visualizar a página “Perguntas Frequentes”. | A aplicação deve permitir que usuários visualizem essa página com as respostas para as dúvidas mais comuns relacionadas ao uso da aplicação e seus serviços. |
 | RF12 | Visualizar a página “Sobre o Voluntariado”. | A aplicação deve permitir que usuários visualizem a página com informações sobre o programa de voluntariado, seus objetivos, e como os usuários podem se envolver. |
