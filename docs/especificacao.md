@@ -5,8 +5,6 @@ Nesta parte do trabalho você verá detalhes da documentação dos requisitos do
 ## 3.1 Objetivos deste documento
 1) Descrever e especificar as necessidades para o desenvolvimento do sistema web que facilitará a conexão entre ONGs e voluntários.
 
-2) Descrever e especificar as necessidades da Coordenação do Curso de Sistemas de Informação da PUC Minas que devem ser atendidas pelo projeto Conecta – Sistema de Conexão entre ONGs e Voluntários.
-
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
