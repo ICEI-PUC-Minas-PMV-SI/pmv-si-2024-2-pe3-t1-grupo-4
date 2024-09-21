@@ -34,11 +34,11 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | RF1 | Gerenciar o acesso das ONGs. | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. |
 | RF2 | Gerenciar perfil das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil. |
 | RF3 | Gerenciar as demandas das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem ou excluem informações sobre as demandas. |
-| RF4 | Visualizar a página de trabalhos voluntários. | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário disponíveis, incluindo a descrição da vaga e localização. |
-| RF5 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF4 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF5 | Visualizar a página de trabalhos voluntários. | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário disponíveis, incluindo a descrição da vaga e localização. |
 | RF6 | Criar uma inscrição de voluntariado. | O sistema deve permitir ao voluntário se inscrever para uma oportunidade de trabalho disponível. |
-| RF7 | Notificar voluntário. | O voluntário deve receber um e-mail quando uma ONG expressa interesse em seu perfil. |
-| RF8 | Visualizar as páginas informativas.| A aplicação deve permitir que usuários visualizem as páginas com informações importantes sobre o sistema, como, "Como começar", "Sobre o voluntariado", "Perguntas Frequentes", "Por que ser voluntário" e "Histórias de Sucesso". |
+| RF7 | Receber notificação do trabalho voluntário. | O voluntário deve receber um e-mail quando uma ONG expressa interesse em seu perfil. |
+| RF8 | Visualizar as páginas informativas.| A aplicação deve permitir que usuários visualizem as páginas com informações importantes sobre o sistema, como "Como começar", "Sobre o voluntariado", "Perguntas Frequentes", "Por que ser voluntário" e "Histórias de Sucesso". |
 | RF9 | Sair do sistema. | A aplicação deve permitir que as ONGs saiam do sistema. |
 
 ### 3.3.2 Requisitos Não Funcionais
@@ -64,11 +64,11 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+Como observado no diagrama de casos de uso da Figura 1, o representante da ONG poderá gerenciar o acesso na plataforma, gerenciar seu perfil, gerenciar as demandas e gerenciar os feedbacks dos voluntários. O voluntário poderá visualizar a página de trabalhos voluntários, criar uma solicitação de trabalho voluntário e ser notifcado sobre sua inscrição. As páginas informativas pode ser acessada por todos os usuários.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://github.com/user-attachments/assets/41f6b731-b44e-43aa-911f-423ad6198f47)
+![dcu](./assets/diagrama-de-casos-de-uso.png)
  
 ### 3.4.2 Descrições de Casos de Uso
 
