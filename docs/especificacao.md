@@ -129,8 +129,7 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
 
 #### Figura 2: Diagrama de Classes do Sistema.
- 
-![dcu](https://github.com/user-attachments/assets/97ab1aa8-eb03-4b58-9ad5-1697d414a451)
+![dcu](assets/img.png)
 
 ### 3.4.4 Descrições das Classes 
 
