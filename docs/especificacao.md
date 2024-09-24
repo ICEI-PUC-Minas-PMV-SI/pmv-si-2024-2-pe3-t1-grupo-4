@@ -72,12 +72,11 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 |--------------------|------------------------------------|
 | Representante da ONG |	Usuário que representa uma ONG e busca suporte técnico ou colaboração em projetos tecnológicos. É responsável por criar e gerenciar solicitações de suporte, acompanhar o progresso dos projetos e assegurar que as necessidades tecnológicas da ONG sejam atendidas. |
 | Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos.
-|
 
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+Como observado no diagrama de casos de uso da Figura 1, O Representante poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
@@ -85,56 +84,153 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
+## Gerenciar Demandas (CSU01)
 
-#### Gerenciar Professor (CSU01)
+**Sumário:** O Representante da ONG realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre as demandas.
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+**Ator Primário:** Representante da ONG.
 
-Ator Primário: Secretária.
+**Ator Secundário:** Não possui.
 
-Ator Secundário: Coordenador.
+**Pré-condições:** O Representante deve estar autenticado e validado pelo sistema.
 
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+### Fluxo Principal:
 
-Fluxo Principal:
+1) 	O Representante requisita manutenção de demandas.
+   
+2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de uma nova demanda, alteração de uma demanda, a exclusão de uma demanda e a consulta de dados de uma demanda.
+   
+3) 	O Representante seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
+  
+4) 	Se o Representante desejar continuar com a gestão de demandas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+### Fluxo Alternativo (3): Inclusão
 
-Fluxo Alternativo (3): Inclusão
+A) O Representante requisita a inclusão de uma nova demanda.
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
+B) O Sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda.
 
-Fluxo Alternativo (3): Remoção
+C) O Representante preenche o formulário com as informações solicitadas.
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+D) O Sistema valida os dados fornecidos:
+  * Se os dados estiverem corretos, o Sistema inclui a nova demanda e notifica o sucesso da operação.
+  * Se houver erros, o Sistema solicita correções e repete a validação.
+    
+O Sistema retorna ao início do fluxo principal.
 
-Fluxo Alternativo (3): Alteração
+### Fluxo Alternativo (3): Remoção
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
+A) O Representante seleciona uma demanda existente e requisita a sua remoção.
+
+B) O Sistema verifica se a demanda pode ser removida:
+   * Se a demanda puder ser removida, o Sistema a exclui e notifica o sucesso da operação.
+   * Se a demanda não puder ser removida, o Sistema reporta o erro ao Representante.
+     
+O Sistema retorna ao início do fluxo principal.
+
+### Fluxo Alternativo (3): Alteração
+
+A) O Representante seleciona uma demanda existente para alterar e solicita a edição dos seus dados.
+
+B) O Sistema apresenta os dados atuais da demanda para edição.
+
+C) O Representante altera os dados desejados.
+
+D) O Sistema verifica a validade dos novos dados:
+   * Se os dados forem válidos, o Sistema atualiza a demanda e notifica o sucesso da operação.
+   * Se houver erros, o Sistema reporta o problema e solicita correções.
+     
+O Sistema retorna ao início do fluxo principal.
  
-Fluxo Alternativo (3): Consulta
+### Fluxo Alternativo (3): Consulta
 
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
+A) O Representante requisita a consulta de uma demanda, podendo buscar pelo tipo e status.
 
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
+B) O Sistema apresenta a lista de demandas que atendem aos critérios de busca.
+
+C) O Representante seleciona uma demanda da lista.
+
+D) O Sistema exibe os detalhes da demanda selecionada.
+
+E) O Sistema retorna ao início do fluxo principal.
+
+**Pós-condições:** Uma demanda foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Representante.
+
+## Gerenciar Trabalhos Voluntários (CSU01)
+
+**Sumário:** O Voluntário de TI realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre os trabalhos candidatados.
+
+**Ator Primário:** Voluntário de TI.
+
+**Ator Secundário:** Não possui.
+
+**Pré-condições:** O Representante deve estar autenticado e validado pelo sistema.
+
+#### Fluxo Principal:
+
+1) 	O Voluntário de TI requisita manutenção de trabalhos voluntários.
+  
+2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de uma nova candidatura, alteração de uma candidatura, a exclusão de uma candidatura e a consulta de dados de uma candidatura.
+  
+3) 	O Voluntário seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
+   
+4) 	Se o Voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+
+### Fluxo Alternativo (3): Inclusão
+
+A) O Voluntário requisita a inclusão de uma nova candidatura.
+
+B) O Sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura.
+
+C) O Voluntário preenche o formulário com as informações solicitadas.
+
+D) O Sistema valida os dados fornecidos:
+  * Se os dados estiverem corretos, o Sistema inclui a nova candidatura e notifica o sucesso da operação.
+  * Se houver erros, o Sistema solicita correções e repete a validação.
+    
+O Sistema retorna ao início do fluxo principal.
+
+### Fluxo Alternativo (3): Remoção
+
+A) O Voluntário seleciona uma candidatura existente e requisita a sua remoção.
+
+B) O Sistema verifica se a demanda pode ser removida:
+   * Se a demanda puder ser removida, o Sistema a exclui e notifica o sucesso da operação.
+   * Se a demanda não puder ser removida, o Sistema reporta o erro ao Representante.
+     
+O Sistema retorna ao início do fluxo principal.
+
+### Fluxo Alternativo (3): Alteração
+
+A) O Voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados.
+
+B) O Sistema apresenta os dados atuais da candidatura para edição.
+
+C) O Representante altera os dados desejados.
+
+D) O Sistema verifica a validade dos novos dados:
+   * Se os dados forem válidos, o Sistema atualiza a demanda e notifica o sucesso da operação.
+   * Se houver erros, o Sistema reporta o problema e solicita correções.
+     
+O Sistema retorna ao início do fluxo principal.
+ 
+### Fluxo Alternativo (3): Consulta
+
+A) O Voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status.
+
+B) O Sistema apresenta a lista de demandas que atendem aos critérios de busca.
+
+C) O Voluntário seleciona uma candidatura da lista.
+
+D) O Sistema exibe os detalhes da demanda selecionada.
+
+E) O Sistema retorna ao início do fluxo principal.
+
+Pós-condições:  Uma candidatura foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Voluntário de TI.
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas uma demanda responsável por ela.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
