@@ -85,52 +85,439 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
+#### Gerenciar o acesso das ONGs (CSU01) ALICE
 
-#### Gerenciar Professor (CSU01)
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+**Ator Primário**: Adicione o ator principal.
 
-Ator Primário: Secretária.
+**Ator Secundário**: Adicione o ator secundário.
 
-Ator Secundário: Coordenador.
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
 
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+**Fluxo Principal**:
 
-Fluxo Principal:
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
 
-Fluxo Alternativo (3): Inclusão
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
 
-Fluxo Alternativo (3): Remoção
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-Fluxo Alternativo (3): Alteração
+#### Gerenciar acesso do voluntário (CSU02) GABRIEL
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
 
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
+**Ator Primário**: Adicione o ator principal.
 
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar acesso do patrocinador (CSU03) OMAR
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar perfil das ONGs (CSU04) LEONARDO
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar perfil do voluntário (CSU05) JOÃO
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar perfil do patrocinador (CSU06) ALICE
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar as demandas (CSU07) DAVIH
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar feedback (CSU08) GABRIEL
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar trabalhos voluntários (CSU09) DAVIH
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar patrocínios (CSU010) OMAR
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar conteúdo de páginas informativas (CSU011) LEONARDO
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Enviar notificação do trabalho voluntário (CSU012) JOÃO
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Enviar recomendação de demanda (CSU013) DAVIH
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Sair do sistema (CSU014) ALICE
+
+**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+
+**Ator Primário**: Adicione o ator principal.
+
+**Ator Secundário**: Adicione o ator secundário.
+
+**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+
+**Fluxo Principal**:
+
+1) 	Coloque aqui o fluxo.
+2) 	Coloque aqui o fluxo.
+3) 	Coloque aqui o fluxo.
+4) 	Coloque aqui o fluxo...
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+
+a)	Descreva o fluxo alternativo caso houver. <br>
+b)	Descreva o fluxo alternativo caso houver. <br>
+c)	Descreva o fluxo alternativo caso houver... <br>
+
+**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
 ### 3.4.3 Diagrama de Classes 
 
