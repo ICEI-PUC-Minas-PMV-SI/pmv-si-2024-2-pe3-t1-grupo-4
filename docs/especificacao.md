@@ -29,22 +29,22 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 ### 3.3.1 Requisitos Funcionais
 
-| Código | Requisito Funcional (Funcionalidade)        | Descrição                                                                                                                                                                                                                                                                                            |
-|--------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RF1    | Gerenciar o acesso das ONGs.                | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso.                                                                                                                                                              |
-| RF2    | Gerenciar acesso do voluntário.             | A aplicação deve permitir que os voluntários criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. Além disso, é possível selecionar uma ou mais categorias favoritas para receber notificação caso uma nova demanda seja criada dentro dessa categorias |
-| RF3    | Gerenciar acesso do patrocinador.           | A aplicação deve permitir que os patrocinadores criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso.                                                                                                                                                    |
-| RF4    | Gerenciar perfil das ONGs.                  | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil.                                                                                                                                                                                                     |
-| RF5    | Gerenciar perfil do voluntário.             | A aplicação deve permitir que os voluntários criem, visualizem, editem e excluem informações do perfil.                                                                                                                                                                                              |
-| RF6    | Gerenciar perfil do patrocinador.           | A aplicação deve permitir que os patrocinadores criem, visualizem, editem e excluem informações do perfil.                                                                                                                                                                                           |
-| RF7    | Gerenciar as demandas.                      | A aplicação deve permitir que as ONGs criem, visualizem, editem ou excluem informações sobre as demandas.                                                                                                                                                                                            |
-| RF8    | Gerenciar feedback.                         | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis.                                                                                                                                                                     |
-| RF9    | Gerenciar trabalhos voluntários.            | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário que se candidatou, incluindo a descrição da vaga e localização. Também sendo possível desistir de uma demanda candidatada.                                                                        |
-| RF10   | Gerenciar patrocínios.                      | A aplicação deve permitir que as ONGs gerenciem os patrocínios recebidos e que os patrocinadores possam se conectar com as ONGs.                                                                                                                                                                     |
-| RF11   | Gerenciar conteúdo de páginas informativas. | A aplicação deve consumir o conteúdo das páginas informativas através de uma requisição HTTP ao banco de dados.                                                                                                                                                                                      |
-| RF12   | Enviar notificação do trabalho voluntário.  | A aplicação deve enviar uma notificação quando uma ONG expressa interesse em seu perfil.                                                                                                                                                                                                             |
-| RF13   | Enviar recomendação de demanda.             | A aplicação deve enviar uma notificação ao voluntário caso uma demanda com categoria favoritada por ele seja criada.                                                                                                                                                                                 |
-| RF14   | Sair do sistema.                            | A aplicação deve permitir que os usuários saiam do sistema.                                                                                                                                                                                                                                          |
+| Código | Requisito Funcional (Funcionalidade)        | Descrição                                                                                                                        |
+|--------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RF1 | Gerenciar o acesso das ONGs. | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso.  |
+| RF2 | Gerenciar acesso do voluntário. | A aplicação deve permitir que os voluntários criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. Além disso, é possível selecionar uma ou mais categorias favoritas para receber notificação caso uma nova demanda seja criada dentro dessa categorias. |
+| RF3 | Gerenciar acesso do patrocinador. | A aplicação deve permitir que os patrocinadores criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. |
+| RF4 | Gerenciar perfil das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil. |
+| RF5 | Gerenciar perfil do voluntário. | A aplicação deve permitir que os voluntários criem, visualizem, editem e excluem informações do perfil. |
+| RF6 | Gerenciar perfil do patrocinador. | A aplicação deve permitir que os patrocinadores criem, visualizem, editem e excluem informações do perfil. |
+| RF7 | Gerenciar as demandas. | A aplicação deve permitir que as ONGs criem, visualizem, editem ou excluem informações sobre as demandas. |
+| RF8 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF9 | Gerenciar trabalhos voluntários. | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário que se candidatou, incluindo a descrição da vaga e localização. Também sendo possível desistir de uma demanda candidatada. |
+| RF10 | Gerenciar patrocínios. | A aplicação deve permitir que as ONGs gerenciem os patrocínios recebidos e que os patrocinadores possam se conectar com as ONGs. |
+| RF11 | Gerenciar conteúdo de páginas informativas. | A aplicação deve consumir o conteúdo das páginas informativas através de uma requisição HTTP ao banco de dados. |
+| RF12 | Enviar notificação do trabalho voluntário.  | A aplicação deve enviar uma notificação quando uma ONG expressa interesse em seu perfil. |
+| RF13 | Enviar recomendação de demanda. | A aplicação deve enviar uma notificação ao voluntário caso uma demanda com categoria favoritada por ele seja criada. |
+| RF14 | Sair do sistema. | A aplicação deve permitir que os usuários saiam do sistema. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
@@ -64,16 +64,18 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | Ator | Descrição |
 |--------------------|------------------------------------|
 | Representante da ONG |	Usuário que representa uma ONG e busca suporte técnico ou colaboração em projetos tecnológicos. É responsável por criar e gerenciar solicitações de suporte, acompanhar o progresso dos projetos e assegurar que as necessidades tecnológicas da ONG sejam atendidas. |
-| Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos. | 
+| Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos. |
+| Patrocinador | Usuário que pode ser uma entidade ou indivíduo que fornece recursos financeiros ou apoio material para as ONGs e seus projetos. Ele pode ser uma empresa, uma fundação ou um investidor social interessado em promover causas sociais e comunitárias. |
+| Adminstrador | Usuário gerente dos sistema. Possui acesso geral do sistema garante a segurança e integridade dos dados. |
 
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, o representante da ONG poderá gerenciar o acesso na plataforma, gerenciar seu perfil, gerenciar as demandas e gerenciar os feedbacks dos voluntários. O voluntário poderá visualizar a página de trabalhos voluntários, criar uma solicitação de trabalho voluntário e ser notifcado sobre sua inscrição. As páginas informativas pode ser acessada por todos os usuários.
+Como observado no diagrama de casos de uso da Figura 1, o representante da ONG poderá gerenciar o acesso à plataforma, gerenciar seu perfil, gerenciar as demandas, gerenciar os feedbacks dos voluntários e gerenciar os patrocínios recebidos. O voluntário poderá gerenciar o acesso ao sistema, gerenciar seu perfil e gerenciar os trabalhos voluntários aos quais se candidatou. O patrocinador poderá gerenciar o acesso à aplicação, gerenciar seu perfil e gerenciar os patrocínios. Por fim, o administrador terá acesso geral à plataforma, além de poder enviar recomendações de demandas, gerenciar os conteúdos das páginas informativas e notificar o voluntário sobre trabalhos voluntários.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](./assets/diagrama-de-casos-de-uso.png)
+![dcu](./assets/diagrama-de-casos-de-uso-conecta.png)
  
 ### 3.4.2 Descrições de Casos de Uso
 
