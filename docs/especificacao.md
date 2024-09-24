@@ -8,13 +8,19 @@ Descrever e especificar as necessidades para o desenvolvimento do sistema web qu
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+O Conecta possui os seguintes componentes principais:
+
+* Módulo de Cadastro de ONGs: Permite o registro de organizações não governamentais, incluindo dados como área de atuação, localização, e tipo de atividades que necessitam de voluntários.
+* Módulo de Gerenciamento de Atividades: Permite que as ONGs publiquem oportunidades de voluntariado, e voluntários possam se inscrever em atividades específicas.
+* Módulo de Cadastro de Voluntários: Permite que profissionais se registrem, informando suas habilidades, interesses e disponibilidade para atividades de voluntariado.
+* Módulo de Correspondência: Responsável por conectar ONGs e voluntários com base nas necessidades das ONGs e nas habilidades dos voluntários.
+
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+Facilitar o encontro entre ONGs e profissionais que desejam atuar como voluntários, fornecendo uma plataforma de fácil utilização, que centraliza as necessidades das ONGs e as habilidades dos voluntários, promovendo o impacto social positivo por meio do voluntariado.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O Conecta não gerencia compensações financeiras para os voluntários, nem o pagamento de atividades remuneradas. Ele também não abrange o gerenciamento completo de projetos ou tarefas internas das ONGs. Além disso, o produto não oferece suporte a ONGs ou voluntários fora do país ou de regiões não cobertas pelo serviço.
 
 ### 3.2.4 Benefícios do produto
 
