@@ -87,34 +87,36 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 #### Gerenciar o acesso das ONGs (CSU01) ALICE
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o representante da ONG gerencie seu acesso na plataforma, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o representante da ONG tenha controle sobre suas informações dentro do sistema.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Representante da ONG.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: Não exsitem.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Cadastro da ONG.
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  O representante da ONG acessa a página de login do sistema..
+2)  Insere seus dados.
+3)  O cadastro da ONG é criado.
+4)  O representante da ONG acessa o sistema.
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Alteração de senha.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  O representante da ONG acessa a página de editar perfil. <br>
+b)  Seleciona a opção de alterar senha. <br>
+c)  Insere a senha atual e a nova senha.<br>
+d)  A senha do representante da ONG é alterada.<br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de acesso.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  O representante da ONG acessa a página de editar perfil. <br>
+b)  Seleciona a opção de excluir conta. <br>
+c)  Confirma a exclusão. <br>
+d)  Conta do representante da ONG é excluída do sistema. <br>
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: Conta do representante da ONG deve existir ou ser excluída.
 
 #### Gerenciar acesso do voluntário (CSU02) GABRIEL
 
@@ -128,22 +130,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -159,22 +161,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -190,22 +192,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -221,22 +223,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -252,22 +254,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -283,22 +285,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -314,22 +316,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -345,22 +347,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -376,22 +378,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -407,22 +409,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -438,22 +440,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -469,22 +471,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -500,22 +502,22 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Principal**:
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1)  Coloque aqui o fluxo.
+2)  Coloque aqui o fluxo.
+3)  Coloque aqui o fluxo.
+4)  Coloque aqui o fluxo...
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -531,9 +533,9 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| 1 |   Aluno | Cadastro de informações relativas aos alunos. |
+| 2 | Curso |   Cadastro geral de cursos de aperfeiçoamento. |
+| 3 |   Matrícula | Cadastro de Matrículas de alunos nos cursos. |
+| 4 |   Turma | Cadastro de turmas.
+| 5 |   Professor | Cadastro geral de professores que ministram as disciplinas. |
+| ... | ... |   ... |
