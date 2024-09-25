@@ -122,7 +122,7 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Ator Primário**: Voluntário.
 
-**Ator Secundário**: Sistema.
+**Ator Secundário**: Administrador.
 
 **Pré-condições**: Não existem.
 
@@ -135,10 +135,10 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Alteração de senha.
 
-1)  Voluntário acessa a página de editar perfil.
-2)  Seleciona a opção de alterar senha.
-3)  Insere a senha atual e a nova senha.
-4)  A senha do voluntário é alterada.
+a)  Voluntário acessa a página de editar perfil.
+b)  Seleciona a opção de alterar senha.
+c)  Insere a senha atual e a nova senha.
+d)  A senha do voluntário é alterada.
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
@@ -323,10 +323,10 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Exclusão de feedback.
 
-1)  Voluntário acessa a página de feedback.
-2)  Seleciona o feedback que deseja excluir.
-3)  Confirma a exclusão.
-4)  Feedback é removido da página.
+a)  Voluntário acessa a página de feedback.
+b)  Seleciona o feedback que deseja excluir.
+c)  Confirma a exclusão.
+d)  Feedback é removido da página.
 
 **Pós-condições**: Feedback deve ser enviado, visualizado ou excluído.
 
