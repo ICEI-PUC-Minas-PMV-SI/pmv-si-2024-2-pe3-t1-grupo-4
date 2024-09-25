@@ -304,36 +304,31 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Gerenciar feedback (CSU08) GABRIEL
+#### Gerenciar feedback (CSU08)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o voluntário envie, visualize e exclua feedbacks relacionados à demandas que participou. O objetivo principal é coletar experiências dos voluntários para incentivar outros voluntários.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Voluntário.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: ONG.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: Voluntário deve ter participado de uma demanda que foi finalizada.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Envio de feedback.
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1) 	ONG solicita feedback do voluntário.
+2)  Voluntário recebe e-mail com link para enviar feedback.
+3)  Voluntário acessa o link e preenche o formulário.
+4)  Feedback é disponibilizado na página da ONG.
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo (3)**: Exclusão de feedback.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+1)  Voluntário acessa a página de feedback.
+2)  Seleciona o feedback que deseja excluir.
+3)  Confirma a exclusão.
+4)  Feedback é removido da página.
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: Feedback deve ser enviado, visualizado ou excluído.
 
 #### Gerenciar trabalhos voluntários (CSU09) DAVIH
 
