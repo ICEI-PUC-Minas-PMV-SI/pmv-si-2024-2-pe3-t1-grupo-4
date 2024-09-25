@@ -97,8 +97,9 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 **Fluxo Principal**: Cadastro da ONG.
 
-1)  O representante da ONG acessa a página de login do sistema..
+1)  O representante da ONG acessa a página de login do sistema.
 2)  Insere seus dados.
+3)  O sistema valida os dados fornecidos.
 3)  O cadastro da ONG é criado.
 4)  O representante da ONG acessa o sistema.
 
