@@ -244,34 +244,29 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 #### Gerenciar perfil do patrocinador (CSU06) ALICE
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o patrocinador gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o patrocinador possa atualizar seus dados de contato, informações da empresa, e acompanhar seu envolvimento em projetos de suporte a ONGs.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Patrocinador.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Adminstrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: O patrocinador deve estar cadastrado no sistema com um login e senha válidos.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Criar perfil do patrocinador.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O patrocinador faz login no sistema e acessa a área de perfil.
+2)  O sistema exibe as informações atuais do perfil do patrocinador.
+3)  O patrocinador pode editar as informações de contato, como endereço de e-mail, número de telefone e dados da empresa.
+4)  O patrocinador confirma as alterações clicando em "Salvar".
+5)  O sistema valida as informações e salva as alterações.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Edição de dados inválidos.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O patrocinador insere dados inválidos, como um formato de e-mail incorreto ou um número de telefone incompleto. <br>
+b)  O sistema exibe uma mensagem de erro informando quais campos precisam ser corrigidos. <br>
+c)  O patrocinador ajusta as informações e tenta salvar novamente. <br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O perfil do patrocinador é atualizado com sucesso no sistema.
 
 #### Gerenciar as demandas (CSU07) DAVIH
 
@@ -492,34 +487,29 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 #### Sair do sistema (CSU014) ALICE
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o usuário saia do sistema de forma segura. O objetivo principal é garantir que as sessões de usuário sejam encerradas adequadamente.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Todos os usuários.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Nenhum.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: O usuário deve estar autenticado no sistema, com uma sessão ativa.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Sair da aplicação.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O usuário clica no botão "Sair" disponível no menu do sistema.
+2)  O sistema exibe uma mensagem de confirmação perguntando se o usuário deseja realmente sair.
+3)  O usuário confirma que deseja sair clicando em "Sim".
+4)  O sistema encerra a sessão do usuário e redireciona para a página de login.
+5)  O sistema exibe uma mensagem informando que o logout foi realizado com sucesso.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Cancelar logout.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O usuário clica no botão "Cancelar" após a mensagem de confirmação. <br>
+b)  O sistema mantém a sessão ativa e retorna ao menu principal. <br>
+c)  O usuário continua a interagir com o sistema normalmente. <br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: A sessão do usuário é encerrada e não pode mais ser acessada até que um novo login seja realizado.
 
 ### 3.4.3 Diagrama de Classes 
 
