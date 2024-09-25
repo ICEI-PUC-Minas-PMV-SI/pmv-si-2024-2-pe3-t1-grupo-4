@@ -75,7 +75,7 @@ Como observado no diagrama de casos de uso da Figura 1, o representante da ONG p
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](./assets/diagrama-de-casos-de-uso-conecta.png)
+![dcu](./assets//diagrama-de-casos-de-uso-conecta.png)
  
 ### 3.4.2 Descrições de Casos de Uso
 
