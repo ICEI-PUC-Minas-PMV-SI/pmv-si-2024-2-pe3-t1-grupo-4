@@ -116,36 +116,38 @@ c)	Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Gerenciar acesso do voluntário (CSU02) GABRIEL
+#### Gerenciar acesso do voluntário (CSU02)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o voluntário gerencie seu acesso ao sistema, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o voluntário tenha controle sobre suas informações dentro da plataforma.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Voluntário.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Sistema.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: Não existem.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Cadastro de voluntário.
 
-1) 	Coloque aqui o fluxo.
-2) 	Coloque aqui o fluxo.
-3) 	Coloque aqui o fluxo.
-4) 	Coloque aqui o fluxo...
+1) 	Voluntário acessa a página de cadastro.
+2) 	Insere seus dados.
+3) 	O cadastro do voluntário é criado.
+4) 	O voluntário se loga no sistema.
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Alteração de senha.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+1)  Voluntário acessa a página de editar perfil.
+2)  Seleciona a opção de alterar senha.
+3)  Insere a senha atual e a nova senha.
+4)  A senha do voluntário é alterada.
 
-**Fluxo Alternativo (3)**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de acesso.
 
-a)	Descreva o fluxo alternativo caso houver. <br>
-b)	Descreva o fluxo alternativo caso houver. <br>
-c)	Descreva o fluxo alternativo caso houver... <br>
+a)	Voluntário acessa a página de editar perfil.
+b)	Seleciona a opção de excluir conta.
+c)	Confirma a exclusão.
+d)	Conta do voluntário é excluída do sistema.
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: Conta do voluntário deve existir ou ser excluída.
 
 #### Gerenciar acesso do patrocinador (CSU03) OMAR
 
