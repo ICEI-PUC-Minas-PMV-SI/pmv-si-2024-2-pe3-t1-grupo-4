@@ -294,7 +294,7 @@ O Sistema retorna ao início do fluxo principal.
 **Fluxo Alternativo:** Consulta
 a) O Representante requisita a consulta de uma demanda, podendo buscar pelo tipo e status. <br/>
 b) O Sistema apresenta a lista de demandas que atendam aos critérios de busca. <br/>
-C) O Representante seleciona uma demanda da lista. <br/>
+c) O Representante seleciona uma demanda da lista. <br/>
 d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 
 O Sistema retorna ao início do fluxo principal.
@@ -366,31 +366,31 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 4) 	Se o Voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
 **Fluxo Alternativo:** Inclusão
-A) O Voluntário requisita a inclusão de uma nova candidatura. <br/>
-B) O Sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
-C) O Voluntário preenche o formulário com as informações solicitadas. <br/>
-D) O Sistema valida os dados fornecidos e uma nova candidatura é incluída no sistema.
+a) O Voluntário requisita a inclusão de uma nova candidatura. <br/>
+b) O Sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
+c) O Voluntário preenche o formulário com as informações solicitadas. <br/>
+d) O Sistema valida os dados fornecidos e uma nova candidatura é incluída no sistema.
     
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Consulta
-A) O Voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status.
-B) O Sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
-C) O Voluntário seleciona uma candidatura da lista. <br/>
-D) O Sistema exibe os detalhes da demanda selecionada. <br/>
+a) O Voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status.
+b) O Sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
+c) O Voluntário seleciona uma candidatura da lista. <br/>
+d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Alteração
-A) O Voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
-B) O Sistema apresenta os dados atuais da candidatura para edição. <br/>
-C) O Representante altera os dados desejados. <br/>
-D) O Sistema valida as informações e salva as alterações.
+a) O Voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
+b) O Sistema apresenta os dados atuais da candidatura para edição. <br/>
+c) O Representante altera os dados desejados. <br/>
+d) O Sistema valida as informações e salva as alterações.
      
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Remoção
-A) O Voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
+a) O Voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
 b) O Sistema valida se a demanda pode ser excluída. <br/>
 c) A demanda existente é removida do sistema. <br/>
      
