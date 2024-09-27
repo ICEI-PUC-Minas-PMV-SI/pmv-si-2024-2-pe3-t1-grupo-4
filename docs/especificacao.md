@@ -268,7 +268,7 @@ c)  O patrocinador ajusta as informações e tenta salvar novamente. <br/>
 
 **Pós-condições**: O perfil do patrocinador é atualizado com sucesso no sistema.
 
-#### Gerenciar as demandas (CSU07) DAVIH
+#### Gerenciar as demandas (CSU07)
 
 **Sumário**: O Representante da ONG realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre as demandas. O objetivo principal é garantir que o Representante tenha controle sobre suas demandas dentro do sistema.
 
@@ -279,47 +279,41 @@ c)  O patrocinador ajusta as informações e tenta salvar novamente. <br/>
 **Pré-condições:** O Representante deve estar autenticado e validado pelo sistema.
 
 **Fluxo Principal**:
-1) 	O Representante requisita manutenção de demandas.
+1) 	O Representante requisita gestão de demandas.
 2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de uma nova demanda, alteração de uma demanda, a exclusão de uma demanda e a consulta de dados de uma demanda.
 3) 	O Representante seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
 4) 	Se o Representante desejar continuar com a gestão de demandas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
-### Fluxo Alternativo (3): Inclusão
-A) O Representante requisita a inclusão de uma nova demanda. <br/>
-B) O Sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
-C) O Representante preenche o formulário com as informações solicitadas. <br/>
-D) O Sistema valida os dados fornecidos:
-  * Se os dados estiverem corretos, o Sistema inclui a nova demanda e notifica o sucesso da operação.
-  * Se houver erros, o Sistema solicita correções e repete a validação.
+### Fluxo Alternativo: Inclusão
+a) O Representante requisita a inclusão de uma nova demanda. <br/>
+b) O Sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
+c) O Representante preenche o formulário com as informações solicitadas. <br/>
+d) O Sistema valida os dados fornecidos e uma nova demanda é incluída no sistema. <br/>
     
 O Sistema retorna ao início do fluxo principal.
 
-### Fluxo Alternativo (3): Consulta
-A) O Representante requisita a consulta de uma demanda, podendo buscar pelo tipo e status. <br/>
-B) O Sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
+### Fluxo Alternativo: Consulta
+a) O Representante requisita a consulta de uma demanda, podendo buscar pelo tipo e status. <br/>
+b) O Sistema apresenta a lista de demandas que atendam aos critérios de busca. <br/>
 C) O Representante seleciona uma demanda da lista. <br/>
-D) O Sistema exibe os detalhes da demanda selecionada. <br/>
+d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 
 O Sistema retorna ao início do fluxo principal.
 
-### Fluxo Alternativo (3): Alteração
-A) O Representante seleciona uma demanda existente para alterar e solicita a edição dos seus dados. <br/>
-B) O Sistema apresenta os dados atuais da demanda para edição. <br/>
-C) O Representante altera os dados desejados. <br/>
-
-D) O Sistema verifica a validade dos novos dados:
-   * Se os dados forem válidos, o Sistema atualiza a demanda e notifica o sucesso da operação.
-   * Se houver erros, o Sistema reporta o problema e solicita correções.
+### Fluxo Alternativo: Alteração
+a) O Representante seleciona uma demanda existente para alterar e solicita a edição dos seus dados. <br/>
+b) O sistema exibe as informações atuais do perfil da demanda. <br/>
+c) O Representante altera os dados desejados. <br/>
+d) O sistema valida as informações e salva as alterações da demanda.
      
 O Sistema retorna ao início do fluxo principal.
 
-### Fluxo Alternativo (3): Remoção
+### Fluxo Alternativo: Remoção
 
-A) O Representante seleciona uma demanda existente e requisita a sua remoção. <br/>
-B) O Sistema verifica se a demanda pode ser removida:
-   * Se a demanda puder ser removida, o Sistema a exclui e notifica o sucesso da operação.
-   * Se a demanda não puder ser removida, o Sistema reporta o erro ao Representante.
-   * 
+a) O Representante seleciona uma demanda existente e requisita a sua remoção. <br/>
+b) O Sistema valida se a demanda pode ser excluída. <br/>
+c) A demanda existente é removida do sistema. <br/>
+   
 O Sistema retorna ao início do fluxo principal.
 
 **Pós-condições:** Uma demanda foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Representante. <br/>
@@ -355,7 +349,7 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Gerenciar trabalhos voluntários (CSU09) DAVIH
+#### Gerenciar trabalhos voluntários (CSU09)
 
 **Sumário:** O Voluntário de TI realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre os trabalhos candidatados.  O objetivo principal é garantir que o Voluntário tenha controle sobre suas candidaturas dentro do sistema.
 
@@ -367,7 +361,7 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 #### Fluxo Principal:
 
-1) 	O Voluntário de TI requisita manutenção de trabalhos voluntários.
+1) 	O Voluntário de TI requisita gestão de trabalhos voluntários.
 2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de uma nova candidatura, alteração de uma candidatura, a exclusão de uma candidatura e a consulta de dados de uma candidatura.
 3) 	O Voluntário seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
 4) 	Se o Voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
@@ -376,9 +370,7 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 A) O Voluntário requisita a inclusão de uma nova candidatura. <br/>
 B) O Sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
 C) O Voluntário preenche o formulário com as informações solicitadas. <br/>
-D) O Sistema valida os dados fornecidos:
-  * Se os dados estiverem corretos, o Sistema inclui a nova candidatura e notifica o sucesso da operação.
-  * Se houver erros, o Sistema solicita correções e repete a validação.
+D) O Sistema valida os dados fornecidos e uma nova candidatura é incluída no sistema.
     
 O Sistema retorna ao início do fluxo principal.
 
@@ -394,17 +386,14 @@ O Sistema retorna ao início do fluxo principal.
 A) O Voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
 B) O Sistema apresenta os dados atuais da candidatura para edição. <br/>
 C) O Representante altera os dados desejados. <br/>
-D) O Sistema verifica a validade dos novos dados:
-   * Se os dados forem válidos, o Sistema atualiza a demanda e notifica o sucesso da operação.
-   * Se houver erros, o Sistema reporta o problema e solicita correções.
+D) O Sistema valida as informações e salva as alterações.
      
 O Sistema retorna ao início do fluxo principal.
 
 ### Fluxo Alternativo (3): Remoção
 A) O Voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
-B) O Sistema verifica se a demanda pode ser removida:
-   * Se a demanda puder ser removida, o Sistema a exclui e notifica o sucesso da operação.
-   * Se a demanda não puder ser removida, o Sistema reporta o erro ao Representante.
+b) O Sistema valida se a demanda pode ser excluída. <br/>
+c) A demanda existente é removida do sistema. <br/>
      
 O Sistema retorna ao início do fluxo principal.
 
