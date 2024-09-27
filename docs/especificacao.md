@@ -279,7 +279,7 @@ c)  O patrocinador ajusta as informações e tenta salvar novamente. <br/>
 
 **Fluxo Principal**:
 1) 	O Representante requisita gestão de demandas.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de uma nova demanda, alteração de uma demanda, a exclusão de uma demanda e a consulta de dados de uma demanda.
+2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma demanda.
 3) 	O Representante seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
 4) 	Se o Representante desejar continuar com a gestão de demandas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
@@ -361,7 +361,7 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 **Fluxo Principal:**
 
 1) 	O Voluntário de TI requisita gestão de trabalhos voluntários.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de uma nova candidatura, alteração de uma candidatura, a exclusão de uma candidatura e a consulta de dados de uma candidatura.
+2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma candidatura.
 3) 	O Voluntário seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
 4) 	Se o Voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
@@ -491,7 +491,7 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Enviar recomendação de demanda (CSU013) DAVIH
+#### Enviar recomendação de demanda (CSU013)
 
 **Sumário**: O sistema envia recomendações de demandas voluntárias para o Voluntário de TI, com base no perfil e nas candidaturas anteriores registradas no sistema. O objetivo é facilitar o acesso a novas oportunidades de trabalho voluntário.
 
