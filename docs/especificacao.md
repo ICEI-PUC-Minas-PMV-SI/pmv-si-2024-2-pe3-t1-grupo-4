@@ -144,6 +144,39 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
+#### Gerenciar acesso do voluntário (CSU02)
+
+**Sumário**: Este caso de uso permite que o voluntário gerencie seu acesso ao sistema, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o voluntário tenha controle sobre suas informações dentro da plataforma.
+
+**Ator Primário**: Voluntário.
+
+**Ator Secundário**: Administrador.
+
+**Pré-condições**: Não existem.
+
+**Fluxo Principal**: Cadastro de voluntário.
+
+1) 	Voluntário acessa a página de cadastro.
+2) 	Insere seus dados.
+3) 	O cadastro do voluntário é criado.
+4) 	O voluntário se loga no sistema.
+
+**Fluxo Alternativo**: Alteração de senha.
+
+a)  Voluntário acessa a página de editar perfil.
+b)  Seleciona a opção de alterar senha.
+c)  Insere a senha atual e a nova senha.
+d)  A senha do voluntário é alterada.
+
+**Fluxo Alternativo**: Exclusão de acesso.
+
+a)	Voluntário acessa a página de editar perfil.
+b)	Seleciona a opção de excluir conta.
+c)	Confirma a exclusão.
+d)	Conta do voluntário é excluída do sistema.
+
+**Pós-condições**: Conta do voluntário deve existir ou ser excluída.
+
 #### Gerenciar acesso do patrocinador (CSU03) OMAR
 
 **Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
@@ -324,6 +357,32 @@ b)  Descreva o fluxo alternativo caso houver. <br>
 c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+
+#### Gerenciar feedback (CSU08)
+
+**Sumário**: Este caso de uso permite que o voluntário envie, visualize e exclua feedbacks relacionados à demandas que participou. O objetivo principal é coletar experiências dos voluntários para incentivar outros voluntários.
+
+**Ator Primário**: Voluntário.
+
+**Ator Secundário**: ONG.
+
+**Pré-condições**: Voluntário deve ter participado de uma demanda que foi finalizada.
+
+**Fluxo Principal**: Envio de feedback.
+
+1) 	ONG solicita feedback do voluntário.
+2)  Voluntário recebe e-mail com link para enviar feedback.
+3)  Voluntário acessa o link e preenche o formulário.
+4)  Feedback é disponibilizado na página da ONG.
+
+**Fluxo Alternativo**: Exclusão de feedback.
+
+a)  Voluntário acessa a página de feedback.
+b)  Seleciona o feedback que deseja excluir.
+c)  Confirma a exclusão.
+d)  Feedback é removido da página.
+
+**Pós-condições**: Feedback deve ser enviado, visualizado ou excluído.
 
 #### Gerenciar trabalhos voluntários (CSU09) DAVIH
 
