@@ -124,37 +124,6 @@ d)  Conta do representante da ONG é excluída do sistema. <br>
 
 **Pós-condições**: Conta do representante da ONG deve existir ou ser excluída.
 
-#### Gerenciar acesso do voluntário (CSU02) GABRIEL
-
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
-
-**Ator Primário**: Adicione o ator principal.
-
-**Ator Secundário**: Adicione o ator secundário.
-
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
-
-**Fluxo Principal**:
-
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
-
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
-
 #### Gerenciar acesso do voluntário (CSU02)
 
 **Sumário**: Este caso de uso permite que o voluntário gerencie seu acesso ao sistema, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o voluntário tenha controle sobre suas informações dentro da plataforma.
@@ -314,37 +283,6 @@ c)  O patrocinador ajusta as informações e tenta salvar novamente. <br>
 **Pós-condições**: O perfil do patrocinador é atualizado com sucesso no sistema.
 
 #### Gerenciar as demandas (CSU07) DAVIH
-
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
-
-**Ator Primário**: Adicione o ator principal.
-
-**Ator Secundário**: Adicione o ator secundário.
-
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
-
-**Fluxo Principal**:
-
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
-
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
-
-#### Gerenciar feedback (CSU08) GABRIEL
 
 **Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
 
