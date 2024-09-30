@@ -72,7 +72,6 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 |--------------------|------------------------------------|
 | Representante da ONG |	Usuário que representa uma ONG e busca suporte técnico ou colaboração em projetos tecnológicos. É responsável por criar e gerenciar solicitações de suporte, acompanhar o progresso dos projetos e assegurar que as necessidades tecnológicas da ONG sejam atendidas. |
 | Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos.
-|
 
 ## 3.4 Modelagem do Sistema
 
@@ -105,17 +104,17 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a)  O representante da ONG acessa a página de editar perfil. <br>
-b)  Seleciona a opção de alterar senha. <br>
-c)  Insere a senha atual e a nova senha.<br>
-d)  A senha do representante da ONG é alterada.<br>
+a)  O representante da ONG acessa a página de editar perfil. <br/>
+b)  Seleciona a opção de alterar senha. <br/>
+c)  Insere a senha atual e a nova senha.<br/>
+d)  A senha do representante da ONG é alterada.<br/>
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
-a)  O representante da ONG acessa a página de editar perfil. <br>
-b)  Seleciona a opção de excluir conta. <br>
-c)  Confirma a exclusão. <br>
-d)  Conta do representante da ONG é excluída do sistema. <br>
+a)  O representante da ONG acessa a página de editar perfil. <br/>
+b)  Seleciona a opção de excluir conta. <br/>
+c)  Confirma a exclusão. <br/>
+d)  Conta do representante da ONG é excluída do sistema. <br/>
 
 **Pós-condições**: Conta do representante da ONG deve existir ou ser excluída.
 
@@ -138,15 +137,15 @@ d)  Conta do representante da ONG é excluída do sistema. <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -169,15 +168,15 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -200,15 +199,15 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -231,15 +230,15 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -263,42 +262,61 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Edição de dados inválidos.
 
-a)  O patrocinador insere dados inválidos, como um formato de e-mail incorreto ou um número de telefone incompleto. <br>
-b)  O sistema exibe uma mensagem de erro informando quais campos precisam ser corrigidos. <br>
-c)  O patrocinador ajusta as informações e tenta salvar novamente. <br>
+a)  O patrocinador insere dados inválidos, como um formato de e-mail incorreto ou um número de telefone incompleto. <br/>
+b)  O sistema exibe uma mensagem de erro informando quais campos precisam ser corrigidos. <br/>
+c)  O patrocinador ajusta as informações e tenta salvar novamente. <br/>
 
 **Pós-condições**: O perfil do patrocinador é atualizado com sucesso no sistema.
 
-#### Gerenciar as demandas (CSU07) DAVIH
+#### Gerenciar as demandas (CSU07)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: O Representante da ONG realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre as demandas. O objetivo principal é garantir que o Representante tenha controle sobre suas demandas dentro do sistema.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário:** Representante da ONG.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário:** Não possui.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições:** O Representante deve estar autenticado e validado pelo sistema.
 
 **Fluxo Principal**:
+1) 	O Representante requisita gestão de demandas.
+2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma demanda.
+3) 	O Representante seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
+4) 	Se o Representante desejar continuar com a gestão de demandas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+**Fluxo Alternativo:** Inclusão
+a) O Representante requisita a inclusão de uma nova demanda. <br/>
+b) O Sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
+c) O Representante preenche o formulário com as informações solicitadas. <br/>
+d) O Sistema valida os dados fornecidos e uma nova demanda é incluída no sistema. <br/>
+    
+O Sistema retorna ao início do fluxo principal.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo:** Consulta
+a) O Representante requisita a consulta de uma demanda, podendo buscar pelo tipo e status. <br/>
+b) O Sistema apresenta a lista de demandas que atendam aos critérios de busca. <br/>
+c) O Representante seleciona uma demanda da lista. <br/>
+d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+O Sistema retorna ao início do fluxo principal.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo:** Alteração
+a) O Representante seleciona uma demanda existente para alterar e solicita a edição dos seus dados. <br/>
+b) O sistema exibe as informações atuais do perfil da demanda. <br/>
+c) O Representante altera os dados desejados. <br/>
+d) O sistema valida as informações e salva as alterações da demanda.
+     
+O Sistema retorna ao início do fluxo principal.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+**Fluxo Alternativo:** Remoção
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+a) O Representante seleciona uma demanda existente e requisita a sua remoção. <br/>
+b) O Sistema valida se a demanda pode ser excluída. <br/>
+c) A demanda existente é removida do sistema. <br/>
+   
+O Sistema retorna ao início do fluxo principal.
+
+**Pós-condições:** Uma demanda foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Representante. <br/>
 
 #### Gerenciar feedback (CSU08) GABRIEL
 
@@ -319,48 +337,67 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Gerenciar trabalhos voluntários (CSU09) DAVIH
+#### Gerenciar trabalhos voluntários (CSU09)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário:** O Voluntário de TI realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre os trabalhos candidatados.  O objetivo principal é garantir que o Voluntário tenha controle sobre suas candidaturas dentro do sistema.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário:** Voluntário de TI.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário:** Não possui.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições:** O Representante deve estar autenticado e validado pelo sistema.
 
-**Fluxo Principal**:
+**Fluxo Principal:**
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1) 	O Voluntário de TI requisita gestão de trabalhos voluntários.
+2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma candidatura.
+3) 	O Voluntário seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
+4) 	Se o Voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo:** Inclusão
+a) O Voluntário requisita a inclusão de uma nova candidatura. <br/>
+b) O Sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
+c) O Voluntário preenche o formulário com as informações solicitadas. <br/>
+d) O Sistema valida os dados fornecidos e uma nova candidatura é incluída no sistema.
+    
+O Sistema retorna ao início do fluxo principal.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+**Fluxo Alternativo:** Consulta
+a) O Voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status.
+b) O Sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
+c) O Voluntário seleciona uma candidatura da lista. <br/>
+d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+O Sistema retorna ao início do fluxo principal.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+**Fluxo Alternativo:** Alteração
+a) O Voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
+b) O Sistema apresenta os dados atuais da candidatura para edição. <br/>
+c) O Representante altera os dados desejados. <br/>
+d) O Sistema valida as informações e salva as alterações.
+     
+O Sistema retorna ao início do fluxo principal.
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Fluxo Alternativo:** Remoção
+a) O Voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
+b) O Sistema valida se a demanda pode ser excluída. <br/>
+c) A demanda existente é removida do sistema. <br/>
+     
+O Sistema retorna ao início do fluxo principal.
+
+Pós-condições:  Uma candidatura foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Voluntário de TI.
 
 #### Gerenciar patrocínios (CSU010) OMAR
 
@@ -381,15 +418,15 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -412,15 +449,15 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -443,48 +480,44 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  Descreva o fluxo alternativo caso houver. <br/>
+b)  Descreva o fluxo alternativo caso houver. <br/>
+c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Enviar recomendação de demanda (CSU013) DAVIH
+#### Enviar recomendação de demanda (CSU013)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: O sistema envia recomendações de demandas voluntárias para o Voluntário de TI, com base no perfil e nas candidaturas anteriores registradas no sistema. O objetivo é facilitar o acesso a novas oportunidades de trabalho voluntário.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Sistema.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Voluntário de TI.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: O Voluntário de TI deve estar autenticado e possuir candidaturas ou informações de perfil relevantes registradas no sistema.
 
 **Fluxo Principal**:
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O Sistema analisa as candidaturas e o perfil do Voluntário de TI.
+2)  O Sistema gera uma lista de demandas que se alinham ao perfil do Voluntário.
+3)  O Sistema envia uma notificação para o Voluntário de TI com as recomendações de demandas disponíveis.
+4)  O Voluntário de TI recebe a notificação e acessa as demandas recomendadas.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Nenhuma demanda disponível.
+a)  Se o Sistema não encontrar nenhuma demanda correspondente, ele notifica o Voluntário de TI informando que não há novas demandas disponíveis no momento. <br/>
+b)  O Sistema retorna ao início do fluxo principal e permanece aguardando novas demandas. <br/>
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+**Fluxo Alternativo**: Voluntário ignora a recomendação.
+a)  Se o Voluntário optar por não visualizar as recomendações no momento, o Sistema mantém as recomendações no histórico de notificações para consulta posterior. <br/>
+b)  O Voluntário pode acessar as recomendações quando desejar. <br/>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O Voluntário de TI recebe as recomendações de novas demandas, podendo consultar as oportunidades que melhor correspondem ao seu perfil. Caso não haja demandas disponíveis, o Voluntário é notificado da ausência de recomendações no momento.
 
 #### Sair do sistema (CSU014) ALICE
 
@@ -506,9 +539,9 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Cancelar logout.
 
-a)  O usuário clica no botão "Cancelar" após a mensagem de confirmação. <br>
-b)  O sistema mantém a sessão ativa e retorna ao menu principal. <br>
-c)  O usuário continua a interagir com o sistema normalmente. <br>
+a)  O usuário clica no botão "Cancelar" após a mensagem de confirmação. <br/>
+b)  O sistema mantém a sessão ativa e retorna ao menu principal. <br/>
+c)  O usuário continua a interagir com o sistema normalmente. <br/>
 
 **Pós-condições**: A sessão do usuário é encerrada e não pode mais ser acessada até que um novo login seja realizado.
 
