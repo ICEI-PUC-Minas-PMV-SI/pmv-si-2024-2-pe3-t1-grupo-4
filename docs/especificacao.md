@@ -250,34 +250,37 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 #### Gerenciar perfil do voluntário (CSU05) JOÃO
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o voluntário gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o voluntário possa atualizar seus dados de contato, habilidades, e acompanhar seu envolvimento em demandas de suporte às ONGs.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Voluntário de TI.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: O voluntário deve estar cadastrado no sistema com um login e senha válidos.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Criar perfil do voluntário
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O voluntário acessa a página de cadastro do sistema.
+2)  Insere seus dados.
+3)  O sistema valida os dados fornecidos.
+4)  O perfil do voluntario é criado.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Editar perfil do voluntário
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O voluntário faz login no sistema e acessa a área de perfil.<br>
+b)  O sistema exibe as informações atuais do perfil do voluntário.<br>
+c)  O voluntário pode editar as informações de contato, como endereço de e-mail, número de telefone e habilidades.<br>
+d)  O voluntário confirma as alterações clicando em "Salvar".<br>
+e) O sistema valida as informações e salva as alterações.<br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de perfil.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O voluntário acessa a página de perfil. <br>
+b)  Seleciona a opção de excluir conta. <br>
+c)  Confirma a exclusão. <br>
+d)  A conta do voluntário é excluída do sistema.
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O perfil do voluntário é criado, atualizado ou excluído, conforme as ações realizadas.
 
 #### Gerenciar perfil do patrocinador (CSU06) ALICE
 
