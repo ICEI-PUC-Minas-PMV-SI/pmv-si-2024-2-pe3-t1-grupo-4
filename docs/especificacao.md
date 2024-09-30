@@ -417,34 +417,40 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 #### Gerenciar patrocínios (CSU010) OMAR
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que as ONGs gerenciem os patrocínios recebidos e que os patrocinadores possam se conectar com as ONGs. O objetivo é facilitar a interação entre ONGs e patrocinadores, garantindo que os patrocínios sejam registrados e acompanhados de maneira eficaz.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Patrocinador.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Representante da ONG, Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: As ONGs e patrocinadores devem estar cadastrados no sistema e ter acesso ao mesmo.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Criar Patrocínio
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O patrocinador faz login no sistema e acessa a área de patrocínios.
+2)  O patrocinador acessa a lista de ONGs disponíveis.
+3)  O patrocinador seleciona a ONG que deseja patrocinar.
+4)  O sistema exibe as informações da ONG selecionada e solicita os detalhes do patrocínio.
+5)  O patrocinador insere as informações e confirma a criação do patrocínio.
+6)  O sistema valida as informações e registra o novo patrocínio na conta da ONG.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Editar Patrocínio
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O patrocinador acessa a lista de seus patrocínios registrados. <br>
+b)  O patrocinador seleciona o patrocínio que deseja editar. <br>
+c)  O  sistema exibe as informações atuais do patrocínio. <br>
+c)  O patrocinador faz as alterações necessárias e confirma as mudanças.<br>
+d)  O sistema valida as informações e atualiza o patrocínio.<br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Excluir Patrocínio
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O patrocinador acessa a lista de seus patrocínios registrados. <br>
+b)  O patrocinador seleciona o patrocínio que deseja excluir. <br>
+c)  O sistema solicita a confirmação da exclusão. <br>
+d)  O patrocinador confirma a exclusão do patrocínio. <br>
+c)  O sistema remove o patrocínio da lista. <br>
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O patrocínio é registrado, atualizado ou excluído no sistema conforme as ações realizadas, mantendo a lista de patrocínios da ONG organizada e atualizada.
 
 #### Gerenciar conteúdo de páginas informativas (CSU011) LEONARDO
 
