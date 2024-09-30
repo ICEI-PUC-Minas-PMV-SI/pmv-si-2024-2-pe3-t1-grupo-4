@@ -11,7 +11,7 @@ Descrever e especificar as necessidades para o desenvolvimento do sistema web qu
 O Conecta possui os seguintes componentes principais:
 
 * Módulo de Cadastro de ONGs: Permite o registro de organizações não governamentais, incluindo dados como área de atuação, localização, e tipo de atividades que necessitam de voluntários.
-* Módulo de Gerenciamento de Atividades: Permite que as ONGs publiquem oportunidades de voluntariado, e voluntários possam se inscrever em atividades específicas.
+* Módulo de Gerenciamento de Demandas: Permite que as ONGs publiquem oportunidades de voluntariado, e voluntários possam se inscrever em atividades específicas.
 * Módulo de Cadastro de Voluntários: Permite que profissionais se registrem, informando suas habilidades, interesses e disponibilidade para atividades de voluntariado.
 * Módulo de Correspondência: Responsável por conectar ONGs e voluntários com base nas necessidades das ONGs e nas habilidades dos voluntários.
 
