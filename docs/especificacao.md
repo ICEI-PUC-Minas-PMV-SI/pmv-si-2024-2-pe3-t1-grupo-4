@@ -55,7 +55,8 @@ O Conecta não gerencia compensações financeiras para os voluntários, nem o p
 | RF11 | Gerenciar conteúdo de páginas informativas. | A aplicação deve consumir o conteúdo das páginas informativas através de uma requisição HTTP ao banco de dados. |
 | RF12 | Enviar notificação do trabalho voluntário.  | A aplicação deve enviar uma notificação quando uma ONG expressa interesse em seu perfil. |
 | RF13 | Enviar recomendação de demanda. | A aplicação deve enviar uma notificação ao voluntário caso uma demanda com categoria favoritada por ele seja criada. |
-| RF14 | Sair do sistema. | A aplicação deve permitir que os usuários saiam do sistema. |
+| RF14 | Entrar no sistema. | A aplicação deve permitir que os usuários façam login do sistema. |
+| RF15 | Sair do sistema. | A aplicação deve permitir que os usuários saiam do sistema. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
@@ -105,8 +106,8 @@ Como observado no diagrama de casos de uso da Figura 1, o representante da ONG p
 1)  O representante da ONG acessa a página de login do sistema.
 2)  Insere seus dados.
 3)  O sistema valida os dados fornecidos.
-3)  O cadastro da ONG é criado.
-4)  O representante da ONG acessa o sistema.
+4)  O cadastro da ONG é criado.
+5)  O representante da ONG acessa o sistema.
 
 **Fluxo Alternativo**: Alteração de senha.
 
@@ -358,37 +359,6 @@ d)  Feedback é removido da página.
 
 **Pós-condições**: Feedback deve ser enviado, visualizado ou excluído.
 
-#### Gerenciar trabalhos voluntários (CSU09) DAVIH
-
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
-
-**Ator Primário**: Adicione o ator principal.
-
-**Ator Secundário**: Adicione o ator secundário.
-
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
-
-**Fluxo Principal**:
-
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
-
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
-
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
-
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
-
 #### Gerenciar trabalhos voluntários (CSU09)
 
 **Sumário:** O Voluntário de TI realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre os trabalhos candidatados.  O objetivo principal é garantir que o Voluntário tenha controle sobre suas candidaturas dentro do sistema.
@@ -565,7 +535,31 @@ b)  O Voluntário pode acessar as recomendações quando desejar. <br/>
 
 **Pós-condições**: O Voluntário de TI recebe as recomendações de novas demandas, podendo consultar as oportunidades que melhor correspondem ao seu perfil. Caso não haja demandas disponíveis, o Voluntário é notificado da ausência de recomendações no momento.
 
-#### Sair do sistema (CSU014) ALICE
+#### Entrar do sistema (CSU014)
+
+**Sumário**: Este caso de uso permite que o usuário faça login no sistema de forma segura. O objetivo principal é garantir que as sessões de usuário sejam iniciadas adequadamente.
+
+**Ator Primário**: Todos os usuários.
+
+**Ator Secundário**: Nenhum.
+
+**Pré-condições**: O usuário não deve estar autenticado no sistema.
+
+**Fluxo Principal**: Entrar na aplicação.
+
+1)  O usuário clica no botão "Login" disponível no menu do sistema.
+2)  O usuário insere o e-mail e senha.
+3)  O usuário seleciona a opção entre "voluntário", "ONG" ou "patrocinador".
+4)  O usuário submete o formulário.
+
+**Fluxo Alternativo**: Cancelar login.
+
+a)  O usuário clica no botão "Cancelar". <br>
+b)  O sistema retorna para a página inicial. <br>
+
+**Pós-condições**: A sessão do usuário é iniciada.
+
+#### Sair do sistema (CSU015)
 
 **Sumário**: Este caso de uso permite que o usuário saia do sistema de forma segura. O objetivo principal é garantir que as sessões de usuário sejam encerradas adequadamente.
 
