@@ -24,12 +24,17 @@ O Conecta não gerencia compensações financeiras para os voluntários, nem o p
 
 ### 3.2.4 Benefícios do produto
 
-| # | Benefício | Valor para o Cliente |
-|--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+| #  | Benefício                                         | Valor para o Cliente |
+|----|---------------------------------------------------|----------------------|
+| 1  | Facilidade no cadastro e gerenciamento de demandas tecnológicas                | Essencial            |
+| 2  | Facilidade na comunicação entre ONGs e voluntários | Essencial            |
+| 5  | Facilidade em consultar demandas disponíveis         |Essencial            |
+| 5  | Facilidade ao se candidatar a demandas         |Essencial            |
+| 3  | Segurança no acesso e compartilhamento de dados    | Essencial            |
+| 4  | Interface intuitiva e responsiva para dispositivos móveis e desktop | Essencial |
+| 6  | Notificações automáticas sobre novas oportunidades | Recomendável         |
+| 7  | Acesso rápido a histórico de colaborações          | Recomendável         |
+
 
 ## 3.3 Descrição geral do produto
 
