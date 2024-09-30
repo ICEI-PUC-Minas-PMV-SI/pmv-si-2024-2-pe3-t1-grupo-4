@@ -87,7 +87,7 @@ Como observado no diagrama de casos de uso da Figura 1, o representante da ONG p
 
 **Ator Secundário**: Administrador.
 
-**Pré-condições**: Não exsitem.
+**Pré-condições**: Não existem.
 
 **Fluxo Principal**: Cadastro da ONG.
 
@@ -163,50 +163,53 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a)  Voluntário acessa a página de editar perfil.
-b)  Seleciona a opção de alterar senha.
-c)  Insere a senha atual e a nova senha.
+a)  Voluntário acessa a página de editar perfil.<br>
+b)  Seleciona a opção de alterar senha.<br>
+c)  Insere a senha atual e a nova senha.<br>
 d)  A senha do voluntário é alterada.
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
-a)	Voluntário acessa a página de editar perfil.
-b)	Seleciona a opção de excluir conta.
-c)	Confirma a exclusão.
+a)	Voluntário acessa a página de editar perfil.<br>
+b)	Seleciona a opção de excluir conta.<br>
+c)	Confirma a exclusão.<br>
 d)	Conta do voluntário é excluída do sistema.
 
 **Pós-condições**: Conta do voluntário deve existir ou ser excluída.
 
 #### Gerenciar acesso do patrocinador (CSU03) OMAR
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o patrocinador gerencie seu acesso na plataforma, incluindo a criação, modificação e exclusão de sua conta. O objetivo é garantir que o patrocinador tenha controle total sobre suas informações dentro do sistema.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Patrocinador.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: Não existem.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Cadastro do patrocinador.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O patrocinador acessa a página de cadastro no sistema.
+2)  O patrocinador insere seus dados pessoais e de contato.
+3)  O sistema valida as informações fornecidas.
+4)  A conta do patrocinador é criada.
+5) O patrocinador acessa o sistema utilizando as credenciais cadastradas.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Alteração de senha.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O patrocinador acessa a página de editar perfil. <br>
+b)  Seleciona a opção de alterar senha. <br>
+c)  Insere a senha atual e a nova senha.<br>
+d)  A senha do patrocinador é alterada.<br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de conta.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  O Patrocinador acessa a página de editar perfil. <br>
+b)  Seleciona a opção de excluir conta.<br>
+c)  Confirma a exclusão. <br>
+d)  A conta do patrocinador é excluída do sistema. <br>
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: A conta do patrocinador deve existir ou ser excluída, conforme as ações realizadas.
 
 #### Gerenciar perfil das ONGs (CSU04) LEONARDO
 
