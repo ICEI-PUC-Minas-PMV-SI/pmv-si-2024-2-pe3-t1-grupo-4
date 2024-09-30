@@ -8,50 +8,54 @@ Descrever e especificar as necessidades para o desenvolvimento do sistema web qu
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+O Conecta possui os seguintes componentes principais:
+
+* Módulo de Cadastro de ONGs: Permite o registro de organizações não governamentais, incluindo dados como área de atuação, localização, e tipo de atividades que necessitam de voluntários.
+* Módulo de Gerenciamento de Demandas: Permite que as ONGs publiquem oportunidades de voluntariado, e voluntários possam se inscrever em atividades específicas.
+* Módulo de Cadastro de Voluntários: Permite que profissionais se registrem, informando suas habilidades, interesses e disponibilidade para atividades de voluntariado.
+* Módulo de Correspondência: Responsável por conectar ONGs e voluntários com base nas necessidades das ONGs e nas habilidades dos voluntários.
+
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+A missão do Conecta é facilitar a conexão entre ONGs e voluntários de tecnologia, fornecendo uma plataforma de fácil utilização, que centraliza as necessidades das ONGs e as habilidades dos voluntários, promovendo o impacto social positivo por meio do voluntariado.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O Conecta não gerencia compensações financeiras para os voluntários, nem o pagamento de atividades remuneradas. Ele também não abrange o gerenciamento completo de projetos ou tarefas internas das ONGs. Além disso, o produto não oferece suporte a ONGs ou voluntários fora do país ou de regiões não cobertas pelo serviço.
 
 ### 3.2.4 Benefícios do produto
 
-| # | Benefício | Valor para o Cliente |
-|--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+| #  | Benefício                                         | Valor para o Cliente |
+|----|---------------------------------------------------|----------------------|
+| 1  | Facilidade no cadastro e gerenciamento de demandas tecnológicas                | Essencial            |
+| 2  | Facilidade na comunicação entre ONGs e voluntários | Essencial            |
+| 5  | Facilidade em consultar demandas disponíveis         |Essencial            |
+| 5  | Facilidade ao se candidatar a demandas         |Essencial            |
+| 3  | Segurança no acesso e compartilhamento de dados    | Essencial            |
+| 4  | Interface intuitiva e responsiva para dispositivos móveis e desktop | Essencial |
+| 6  | Notificações automáticas sobre novas oportunidades | Recomendável         |
+| 7  | Acesso rápido a histórico de colaborações          | Recomendável         |
+
 
 ## 3.3 Descrição geral do produto
 
 ### 3.3.1 Requisitos Funcionais
 
-| Código | Requisito Funcional (Funcionalidade) | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| RF1 | Deve existir uma página inicial (_landing page_). | Esta página deve fornecer uma visão geral clara e atrativa dos objetivos da plataforma, destacar seus principais recursos e benefícios e direcionar os visitantes para ações específicas, como cadastro, exploração de demandas ou oferta de ajuda. |
-| RF2 | A aplicação deve permitir que as ONGs se cadastrem. |	O processo de cadastro deve incluir o preenchimento de informações essenciais, como nome da ONG, CNPJ, endereço, telefone, e-mail e senha. |
-| RF3 | A aplicação deve permitir que as ONGs acessem o sistema. | Fornecer um sistema de autenticação seguro, permitindo que as ONGs acessem suas contas por meio de um processo de login. |
-| RF4 | A aplicação deve oferecer um processo de recuperação de senha. | O processo de recuperação de senha deve ser iniciado por meio de um link na tela de login, em que o usuário será solicitado a informar o e-mail cadastrado. Após a submissão, o sistema deve enviar um e-mail contendo um link seguro para redefinição da senha. |
-| RF5 | A aplicação deve apresentar uma página de perfil para as ONGs. | Apresenta uma página exclusiva para cada ONG, contendo informações sobre a organização, depoimentos dos voluntários e últimas demandas. |
-| RF6 | A aplicação deve permitir que as ONGs gerenciem suas informações de perfil. | As ONGs poderão visualizar, editar e atualizar dados como nome da organização, CNPJ, endereço, telefone, e-mail de contato, descrição da ONG, redes sociais, e outras informações relevantes. |
-| RF7 | A aplicação deve possibilitar que as ONGs divulguem solicitações de ajuda técnica. | As ONGs poderão descrever suas necessidades específicas, como suporte em tecnologia, manutenção de sistemas, desenvolvimento de websites, entre outros. Cada solicitação deverá incluir informações detalhadas, como título, descrição e tipo de ajuda necessária. |
-| RF8 | A aplicação deve permitir que as ONGs vejam e administrem suas demandas. | As ONGs devem poder acessar uma área dedicada onde todas as suas demandas ativas e anteriores sejam listadas, possibilitando a visualização do  status de cada solicitação, edição, exclusão e acompanhamento de respostas ou ofertas de ajuda recebidas. Poderá também filtrar pelo status (aberta ou finalizada) para facilitar a leitura. |
-| RF9 | A aplicação deve permitir que as ONGs marquem as solicitações como concluídas ou encerradas. | Essa funcionalidade deve estar disponível no painel de administração de demandas da ONG, e o  status da solicitação deve ser atualizado na plataforma para que outros usuários saibam que ela já foi finalizada. |
-| RF10 | A página da demanda cadastrada pela ONG deve exibir uma lista de todos os voluntários que tiveram a candidatura aceita. | Essa funcionalidade permitirá que a ONG visualize de forma clara os voluntários que foram aprovados e estão envolvidos na demanda. |
-| RF11 | Os voluntários devem poder se voluntariar por meio de formulário de contato para trabalhar em projetos específicos das ONGs. | Cada projeto divulgado pela ONG deve ter um botão ou link para voluntariado, que redirecionará o voluntário para um formulário no qual poderá fornecer informações de contato, habilidades relevantes e uma breve mensagem de apresentação, indicando seu interesse e disponibilidade. |
-| RF12 | Os voluntários devem receber um e-mail quando uma ONG expressa interesse em seu perfil. | Este e-mail deve informar o voluntário sobre o interesse da ONG e fornecer detalhes relevantes para que ele possa tomar ações apropriadas. |
-| RF13 | Na página da demanda cadastrada pela ONG, deve ter um botão solicitando ao voluntário um feedback sobre sua experiência. | A página deve incluir um botão que permita enviar um link por e-mail aos voluntários solicitando que deixem um comentário sobre sua experiência com a demanda. Este recurso ajudará a ONG a obter um retorno valioso dos voluntários. |
-| RF14 | A aplicação deve apresentar uma página para os depoimentos dos voluntários. | Esta página deve ser acessada exclusivamente por meio de um link recebido via e-mail e deve conter um formulário para o preenchimento do depoimento. |
-| RF15 | Os depoimentos dos voluntários devem ser disponibilizados no perfil da ONG que fez a solicitação. | Esta funcionalidade permitirá que a ONG visualize e compartilhe o feedback dos voluntários sobre suas experiências com a demanda. |
-| RF16 | A aplicação deve apresentar uma página contendo as últimas demandas criadas pelas ONGs. | Essa página deve listar as demandas com informações como o título e a descrição resumida. A página deve ser de fácil navegação e permitir que os usuários filtrem as demandas pela localização (presencial ou remota). |
-| RF17 | A aplicação deve apresentar a página “Como Começar”. | Essa página deve conter instruções claras sobre os principais processos, como o cadastro de ONGs, publicação de demandas, voluntariado em projetos, e navegação geral da plataforma. |
-| RF18 | A aplicação deve conter a página “Perguntas Frequentes”. | Esta página deve proporcionar aos usuários respostas para as dúvidas mais comuns relacionadas ao uso da aplicação e seus serviços. |
-| RF19 | A aplicação deve apresentar a página “Sobre o Voluntariado”. | Esta página deve fornecer informações detalhadas sobre o programa de voluntariado, seus objetivos, e como os usuários podem se envolver. |
-| RF20 | A aplicação deve apresentar a página “Por Que Ser Voluntário?”. | Esta página deve destacar as razões e benefícios de participar em atividades de voluntariado, incentivando os usuários a contribuirem e apoiarem a causa. |
-| RF21 | A aplicação deve apresentar a página “Histórias de Sucesso”. | Esta página deve apresentar relatos e exemplos de casos bem-sucedidos relacionados ao uso da aplicação ou ao impacto positivo das ações apoiadas por ela. |
+| Código | Requisito Funcional (Funcionalidade)        | Descrição                                                                                                                        |
+|--------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RF1 | Gerenciar o acesso das ONGs. | A aplicação deve permitir que as ONGs criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso.  |
+| RF2 | Gerenciar acesso do voluntário. | A aplicação deve permitir que os voluntários criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. Além disso, é possível selecionar uma ou mais categorias favoritas para receber notificação caso uma nova demanda seja criada dentro dessa categorias. |
+| RF3 | Gerenciar acesso do patrocinador. | A aplicação deve permitir que os patrocinadores criem usuário e senha para acessar o sistema. Podendo editar ou excluir as informações de acesso. |
+| RF4 | Gerenciar perfil das ONGs. | A aplicação deve permitir que as ONGs criem, visualizem, editem e excluem informações do perfil. |
+| RF5 | Gerenciar perfil do voluntário. | A aplicação deve permitir que os voluntários criem, visualizem, editem e excluem informações do perfil. |
+| RF6 | Gerenciar perfil do patrocinador. | A aplicação deve permitir que os patrocinadores criem, visualizem, editem e excluem informações do perfil. |
+| RF7 | Gerenciar as demandas. | A aplicação deve permitir que as ONGs criem, visualizem, editem ou excluem informações sobre as demandas. |
+| RF8 | Gerenciar feedback. | A aplicação deve permitir que as ONGs criem solicitações de feedback aos voluntários e visualizem os depoimentos em seus perfis. |
+| RF9 | Gerenciar trabalhos voluntários. | O sistema deve permitir que o voluntário visualize a lista de oportunidades de trabalho voluntário que se candidatou, incluindo a descrição da vaga e localização. Também sendo possível desistir de uma demanda candidatada. |
+| RF10 | Gerenciar patrocínios. | A aplicação deve permitir que as ONGs gerenciem os patrocínios recebidos e que os patrocinadores possam se conectar com as ONGs. |
+| RF11 | Gerenciar conteúdo de páginas informativas. | A aplicação deve consumir o conteúdo das páginas informativas através de uma requisição HTTP ao banco de dados. |
+| RF12 | Enviar notificação do trabalho voluntário.  | A aplicação deve enviar uma notificação quando uma ONG expressa interesse em seu perfil. |
+| RF13 | Enviar recomendação de demanda. | A aplicação deve enviar uma notificação ao voluntário caso uma demanda com categoria favoritada por ele seja criada. |
+| RF14 | Sair do sistema. | A aplicação deve permitir que os usuários saiam do sistema. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
@@ -71,16 +75,18 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | Ator | Descrição |
 |--------------------|------------------------------------|
 | Representante da ONG |	Usuário que representa uma ONG e busca suporte técnico ou colaboração em projetos tecnológicos. É responsável por criar e gerenciar solicitações de suporte, acompanhar o progresso dos projetos e assegurar que as necessidades tecnológicas da ONG sejam atendidas. |
-| Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos.
+| Voluntário de TI |	Usuário que oferece suas habilidades e conhecimentos em tecnologia para apoiar as ONGs. Pode se inscrever em projetos, fornecer suporte técnico, desenvolver soluções para desafios específicos das ONGs, e compartilhar feedback sobre sua experiência por meio de depoimentos. |
+| Patrocinador | Usuário que pode ser uma entidade ou indivíduo que fornece recursos financeiros ou apoio material para as ONGs e seus projetos. Ele pode ser uma empresa, uma fundação ou um investidor social interessado em promover causas sociais e comunitárias. |
+| Adminstrador | Usuário gerente dos sistema. Possui acesso geral do sistema garante a segurança e integridade dos dados. |
 
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+Como observado no diagrama de casos de uso da Figura 1, o representante da ONG poderá gerenciar o acesso à plataforma, gerenciar seu perfil, gerenciar as demandas, gerenciar os feedbacks dos voluntários e gerenciar os patrocínios recebidos. O voluntário poderá gerenciar o acesso ao sistema, gerenciar seu perfil e gerenciar os trabalhos voluntários aos quais se candidatou. O patrocinador poderá gerenciar o acesso à aplicação, gerenciar seu perfil e gerenciar os patrocínios. Por fim, o administrador terá acesso geral à plataforma, além de poder enviar recomendações de demandas, gerenciar os conteúdos das páginas informativas e notificar o voluntário sobre trabalhos voluntários.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![dcu](https://github.com/user-attachments/assets/41f6b731-b44e-43aa-911f-423ad6198f47)
+![dcu](./assets//diagrama-de-casos-de-uso-conecta.png)
  
 ### 3.4.2 Descrições de Casos de Uso
 
@@ -92,7 +98,7 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 **Ator Secundário**: Administrador.
 
-**Pré-condições**: Não exsitem.
+**Pré-condições**: Não existem.
 
 **Fluxo Principal**: Cadastro da ONG.
 
@@ -104,81 +110,86 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a)  O representante da ONG acessa a página de editar perfil. <br/>
-b)  Seleciona a opção de alterar senha. <br/>
-c)  Insere a senha atual e a nova senha.<br/>
-d)  A senha do representante da ONG é alterada.<br/>
+a)  O representante da ONG acessa a página de editar perfil. <br>
+b)  Seleciona a opção de alterar senha. <br>
+c)  Insere a senha atual e a nova senha.<br>
+d)  A senha do representante da ONG é alterada.<br>
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
-a)  O representante da ONG acessa a página de editar perfil. <br/>
-b)  Seleciona a opção de excluir conta. <br/>
-c)  Confirma a exclusão. <br/>
-d)  Conta do representante da ONG é excluída do sistema. <br/>
+a)  O representante da ONG acessa a página de editar perfil. <br>
+b)  Seleciona a opção de excluir conta. <br>
+c)  Confirma a exclusão. <br>
+d)  Conta do representante da ONG é excluída do sistema. <br>
 
 **Pós-condições**: Conta do representante da ONG deve existir ou ser excluída.
 
-#### Gerenciar acesso do voluntário (CSU02) GABRIEL
+#### Gerenciar acesso do voluntário (CSU02)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o voluntário gerencie seu acesso ao sistema, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o voluntário tenha controle sobre suas informações dentro da plataforma.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Voluntário.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: Não existem.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Cadastro de voluntário.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1) 	Voluntário acessa a página de cadastro.
+2) 	Insere seus dados.
+3) 	O cadastro do voluntário é criado.
+4) 	O voluntário se loga no sistema.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Alteração de senha.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Voluntário acessa a página de editar perfil.<br>
+b)  Seleciona a opção de alterar senha.<br>
+c)  Insere a senha atual e a nova senha.<br>
+d)  A senha do voluntário é alterada.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de acesso.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)	Voluntário acessa a página de editar perfil.<br>
+b)	Seleciona a opção de excluir conta.<br>
+c)	Confirma a exclusão.<br>
+d)	Conta do voluntário é excluída do sistema.
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: Conta do voluntário deve existir ou ser excluída.
 
 #### Gerenciar acesso do patrocinador (CSU03) OMAR
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o patrocinador gerencie seu acesso na plataforma, incluindo a criação, modificação e exclusão de sua conta. O objetivo é garantir que o patrocinador tenha controle total sobre suas informações dentro do sistema.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Patrocinador.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: Não existem.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Cadastro do patrocinador.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O patrocinador acessa a página de cadastro no sistema.
+2)  O patrocinador insere seus dados pessoais e de contato.
+3)  O sistema valida as informações fornecidas.
+4)  A conta do patrocinador é criada.
+5) O patrocinador acessa o sistema utilizando as credenciais cadastradas.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Alteração de senha.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  O patrocinador acessa a página de editar perfil. <br>
+b)  Seleciona a opção de alterar senha. <br>
+c)  Insere a senha atual e a nova senha.<br>
+d)  A senha do patrocinador é alterada.<br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de conta.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  O Patrocinador acessa a página de editar perfil. <br>
+b)  Seleciona a opção de excluir conta.<br>
+c)  Confirma a exclusão. <br>
+d)  A conta do patrocinador é excluída do sistema. <br>
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: A conta do patrocinador deve existir ou ser excluída, conforme as ações realizadas.
 
 #### Gerenciar perfil das ONGs (CSU04) LEONARDO
 
@@ -199,48 +210,51 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
 #### Gerenciar perfil do voluntário (CSU05) JOÃO
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que o voluntário gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o voluntário possa atualizar seus dados de contato, habilidades, e acompanhar seu envolvimento em demandas de suporte às ONGs.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Voluntário de TI.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: O voluntário deve estar cadastrado no sistema com um login e senha válidos.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Criar perfil do voluntário
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O voluntário acessa a página de cadastro do sistema.
+2)  Insere seus dados.
+3)  O sistema valida os dados fornecidos.
+4)  O perfil do voluntario é criado.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Editar perfil do voluntário
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  O voluntário faz login no sistema e acessa a área de perfil.<br>
+b)  O sistema exibe as informações atuais do perfil do voluntário.<br>
+c)  O voluntário pode editar as informações de contato, como endereço de e-mail, número de telefone e habilidades.<br>
+d)  O voluntário confirma as alterações clicando em "Salvar".<br>
+e) O sistema valida as informações e salva as alterações.<br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de perfil.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  O voluntário acessa a página de perfil. <br>
+b)  Seleciona a opção de excluir conta. <br>
+c)  Confirma a exclusão. <br>
+d)  A conta do voluntário é excluída do sistema.
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O perfil do voluntário é criado, atualizado ou excluído, conforme as ações realizadas.
 
 #### Gerenciar perfil do patrocinador (CSU06) ALICE
 
@@ -262,9 +276,9 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Edição de dados inválidos.
 
-a)  O patrocinador insere dados inválidos, como um formato de e-mail incorreto ou um número de telefone incompleto. <br/>
-b)  O sistema exibe uma mensagem de erro informando quais campos precisam ser corrigidos. <br/>
-c)  O patrocinador ajusta as informações e tenta salvar novamente. <br/>
+a)  O patrocinador insere dados inválidos, como um formato de e-mail incorreto ou um número de telefone incompleto. <br>
+b)  O sistema exibe uma mensagem de erro informando quais campos precisam ser corrigidos. <br>
+c)  O patrocinador ajusta as informações e tenta salvar novamente. <br>
 
 **Pós-condições**: O perfil do patrocinador é atualizado com sucesso no sistema.
 
@@ -318,7 +332,33 @@ O Sistema retorna ao início do fluxo principal.
 
 **Pós-condições:** Uma demanda foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Representante. <br/>
 
-#### Gerenciar feedback (CSU08) GABRIEL
+#### Gerenciar feedback (CSU08)
+
+**Sumário**: Este caso de uso permite que o voluntário envie, visualize e exclua feedbacks relacionados à demandas que participou. O objetivo principal é coletar experiências dos voluntários para incentivar outros voluntários.
+
+**Ator Primário**: Voluntário.
+
+**Ator Secundário**: ONG.
+
+**Pré-condições**: Voluntário deve ter participado de uma demanda que foi finalizada.
+
+**Fluxo Principal**: Envio de feedback.
+
+1) 	ONG solicita feedback do voluntário.
+2)  Voluntário recebe e-mail com link para enviar feedback.
+3)  Voluntário acessa o link e preenche o formulário.
+4)  Feedback é disponibilizado na página da ONG.
+
+**Fluxo Alternativo**: Exclusão de feedback.
+
+a)  Voluntário acessa a página de feedback.
+b)  Seleciona o feedback que deseja excluir.
+c)  Confirma a exclusão.
+d)  Feedback é removido da página.
+
+**Pós-condições**: Feedback deve ser enviado, visualizado ou excluído.
+
+#### Gerenciar trabalhos voluntários (CSU09) DAVIH
 
 **Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
 
@@ -337,15 +377,15 @@ O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -401,34 +441,40 @@ Pós-condições:  Uma candidatura foi inserida, removida, alterada ou consultad
 
 #### Gerenciar patrocínios (CSU010) OMAR
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que as ONGs gerenciem os patrocínios recebidos e que os patrocinadores possam se conectar com as ONGs. O objetivo é facilitar a interação entre ONGs e patrocinadores, garantindo que os patrocínios sejam registrados e acompanhados de maneira eficaz.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Patrocinador.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Representante da ONG, Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: As ONGs e patrocinadores devem estar cadastrados no sistema e ter acesso ao mesmo.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Criar Patrocínio
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  O patrocinador faz login no sistema e acessa a área de patrocínios.
+2)  O patrocinador acessa a lista de ONGs disponíveis.
+3)  O patrocinador seleciona a ONG que deseja patrocinar.
+4)  O sistema exibe as informações da ONG selecionada e solicita os detalhes do patrocínio.
+5)  O patrocinador insere as informações e confirma a criação do patrocínio.
+6)  O sistema valida as informações e registra o novo patrocínio na conta da ONG.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Editar Patrocínio
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  O patrocinador acessa a lista de seus patrocínios registrados. <br>
+b)  O patrocinador seleciona o patrocínio que deseja editar. <br>
+c)  O  sistema exibe as informações atuais do patrocínio. <br>
+c)  O patrocinador faz as alterações necessárias e confirma as mudanças.<br>
+d)  O sistema valida as informações e atualiza o patrocínio.<br>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Excluir Patrocínio
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  O patrocinador acessa a lista de seus patrocínios registrados. <br>
+b)  O patrocinador seleciona o patrocínio que deseja excluir. <br>
+c)  O sistema solicita a confirmação da exclusão. <br>
+d)  O patrocinador confirma a exclusão do patrocínio. <br>
+c)  O sistema remove o patrocínio da lista. <br>
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O patrocínio é registrado, atualizado ou excluído no sistema conforme as ações realizadas, mantendo a lista de patrocínios da ONG organizada e atualizada.
 
 #### Gerenciar conteúdo de páginas informativas (CSU011) LEONARDO
 
@@ -449,15 +495,15 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -480,15 +526,15 @@ c)  Descreva o fluxo alternativo caso houver... <br/>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
 
-a)  Descreva o fluxo alternativo caso houver. <br/>
-b)  Descreva o fluxo alternativo caso houver. <br/>
-c)  Descreva o fluxo alternativo caso houver... <br/>
+a)  Descreva o fluxo alternativo caso houver. <br>
+b)  Descreva o fluxo alternativo caso houver. <br>
+c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
@@ -539,9 +585,9 @@ b)  O Voluntário pode acessar as recomendações quando desejar. <br/>
 
 **Fluxo Alternativo**: Cancelar logout.
 
-a)  O usuário clica no botão "Cancelar" após a mensagem de confirmação. <br/>
-b)  O sistema mantém a sessão ativa e retorna ao menu principal. <br/>
-c)  O usuário continua a interagir com o sistema normalmente. <br/>
+a)  O usuário clica no botão "Cancelar" após a mensagem de confirmação. <br>
+b)  O sistema mantém a sessão ativa e retorna ao menu principal. <br>
+c)  O usuário continua a interagir com o sistema normalmente. <br>
 
 **Pós-condições**: A sessão do usuário é encerrada e não pode mais ser acessada até que um novo login seja realizado.
 
@@ -550,8 +596,7 @@ c)  O usuário continua a interagir com o sistema normalmente. <br/>
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
 
 #### Figura 2: Diagrama de Classes do Sistema.
- 
-![dcu](https://github.com/user-attachments/assets/97ab1aa8-eb03-4b58-9ad5-1697d414a451)
+![dcu](assets/img.png)
 
 ### 3.4.4 Descrições das Classes 
 
