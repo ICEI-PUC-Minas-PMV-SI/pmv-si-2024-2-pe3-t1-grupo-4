@@ -17,7 +17,7 @@ O Conecta possui os seguintes componentes principais:
 
 
 ### 3.2.2 Missão do produto
-Facilitar o encontro entre ONGs e profissionais que desejam atuar como voluntários, fornecendo uma plataforma de fácil utilização, que centraliza as necessidades das ONGs e as habilidades dos voluntários, promovendo o impacto social positivo por meio do voluntariado.
+A missão do Conecta é facilitar a conexão entre ONGs e voluntários de tecnologia, fornecendo uma plataforma de fácil utilização, que centraliza as necessidades das ONGs e as habilidades dos voluntários, promovendo o impacto social positivo por meio do voluntariado.
 
 ### 3.2.3 Limites do produto
 O Conecta não gerencia compensações financeiras para os voluntários, nem o pagamento de atividades remuneradas. Ele também não abrange o gerenciamento completo de projetos ou tarefas internas das ONGs. Além disso, o produto não oferece suporte a ONGs ou voluntários fora do país ou de regiões não cobertas pelo serviço.
