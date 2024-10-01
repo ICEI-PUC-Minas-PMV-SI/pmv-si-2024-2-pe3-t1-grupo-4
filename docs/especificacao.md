@@ -249,7 +249,7 @@ a) 	O voluntário faz login no sistema e acessa a área de perfil. <br>
 b) 	O sistema exibe as informações atuais do perfil do voluntário. <br>
 c) 	O voluntário pode editar as informações do perfil. <br>
 d) 	O voluntário confirma as alterações clicando em "Salvar". <br>
-e) O sistema valida as informações e salva as alterações. <br>
+e)  O sistema valida as informações e salva as alterações. <br>
 
 **Fluxo Alternativo**: Exclusão de perfil.
 
@@ -284,7 +284,7 @@ a) 	O patrocinador faz login no sistema e acessa a área de perfil. <br>
 b) 	O sistema exibe as informações atuais do perfil do patrocinador. <br>
 c) 	O patrocinador pode editar as informações do perfil. <br>
 d) 	O patrocinador confirma as alterações clicando em "Salvar". <br>
-e) O sistema valida as informações e salva as alterações. <br>
+e)  O sistema valida as informações e salva as alterações. <br>
 
 **Fluxo Alternativo**: Exclusão de perfil.
 
