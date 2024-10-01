@@ -223,7 +223,7 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 
 **Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
 
-#### Gerenciar perfil do voluntário (CSU05) JOÃO
+#### Gerenciar perfil do voluntário (CSU05)
 
 **Sumário**: Este caso de uso permite que o voluntário gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o voluntário possa atualizar seus dados de contato, habilidades, e acompanhar seu envolvimento em demandas de suporte às ONGs.
 
