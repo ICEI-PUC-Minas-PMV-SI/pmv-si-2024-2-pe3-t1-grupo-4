@@ -192,36 +192,39 @@ d)  A conta do patrocinador é excluída do sistema. <br>
 
 **Pós-condições**: A conta do patrocinador deve existir ou ser excluída, conforme as ações realizadas.
 
-#### Gerenciar perfil das ONGs (CSU04) LEONARDO
+#### Gerenciar perfil das ONGs (CSU04)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: Este caso de uso permite que a ONG gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que a ONG possa atualizar seus dados de contato, criar demandas para recrutar voluntários e acompanhar suas demandas e possíveis voluntários.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: ONG.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Administrador.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: A ONG deve estar cadastrada no sistema com um login e senha válidos.
 
-**Fluxo Principal**:
+**Fluxo Principal**:Criar perfil da ONG
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1)  A ONG acessa a página de cadastro do sistema.
+2)  Insere seus dados.
+3)  O sistema valida os dados fornecidos.
+4)  O perfil da ONG é criado.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Editar perfil da ONG
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a) A ONG faz login no sistema e acessa a área de perfil. <br/> 
+b) O sistema exibe as informações atuais do perfil da ONG. <br/> 
+c) A ONG pode editar as informações de contato, como endereço de e-mail, número de contato e as demandas. <br/> 
+d) A ONG confirma as alterações clicando em "Salvar". <br/> 
+e) O sistema valida as informações e salva as alterações. <br/> 
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Exclusão de perfil da ONG.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a)  A ONG acessa a página de perfil.  <br/> 
+b)  Seleciona a opção de excluir conta.  <br/> 
+c)  Confirma a exclusão.  <br/> 
+d)  A conta da ONG é excluída do sistema. <br/> 
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O perfil da ONG é criado, atualizado ou excluído, conforme as ações realizadas.
 
 #### Gerenciar perfil do voluntário (CSU05) JOÃO
 
@@ -446,36 +449,36 @@ c)  O sistema remove o patrocínio da lista. <br>
 
 **Pós-condições**: O patrocínio é registrado, atualizado ou excluído no sistema conforme as ações realizadas, mantendo a lista de patrocínios da ONG organizada e atualizada.
 
-#### Gerenciar conteúdo de páginas informativas (CSU011) LEONARDO
+#### Gerenciar conteúdo de páginas informativas (CSU011)
 
-**Sumário**: Um breve resumo do que o caso de uso faz e qual o seu objetivo principal.
+**Sumário**: O administrador pode gerenciar (criar, editar, excluir) o conteúdo de páginas informativas do sistema. O objetivo principal é garantir que as informações exibidas nas páginas estejam atualizadas e sejam relevantes para os usuários.
 
-**Ator Primário**: Adicione o ator principal.
+**Ator Primário**: Administrador.
 
-**Ator Secundário**: Adicione o ator secundário.
+**Ator Secundário**: Sistema.
 
-**Pré-condições**: Condições que devem ser atendidas antes que o caso de uso possa ser executado.
+**Pré-condições**: O administrador deve estar autenticado no sistema e possuir permissões para gerenciar o conteúdo das páginas informativas.
 
-**Fluxo Principal**:
+**Fluxo Principal**: Administrador gerencia o conteúdo de uma página.
 
-1)  Coloque aqui o fluxo.
-2)  Coloque aqui o fluxo.
-3)  Coloque aqui o fluxo.
-4)  Coloque aqui o fluxo...
+1) O administrador acessa a área de gerenciamento de conteúdo no sistema.
+2) O administrador seleciona a opção para criar, editar ou excluir uma página informativa.
+3) O administrador insere ou altera o conteúdo necessário (texto, imagens, links) na página.
+4) O administrador confirma as alterações e o sistema salva o conteúdo atualizado.
+5) O sistema exibe uma mensagem de confirmação de que o conteúdo foi gerenciado com sucesso.
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Conteúdo inválido ou campos obrigatórios não preenchidos.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a) O sistema verifica se todos os campos obrigatórios foram preenchidos corretamente. <br/> 
+b) Caso algum campo esteja em branco ou com informações inválidas, o sistema exibe uma mensagem de erro solicitando correção. <br/> 
+c) O administrador corrige os campos e submete novamente as alterações. <br/>
 
-**Fluxo Alternativo**: Coloque aqui o nome fluxo alternativo caso houver.
+**Fluxo Alternativo**: Página não encontrada.
 
-a)  Descreva o fluxo alternativo caso houver. <br>
-b)  Descreva o fluxo alternativo caso houver. <br>
-c)  Descreva o fluxo alternativo caso houver... <br>
+a) Se o administrador tentar editar ou excluir uma página que não existe mais, o sistema exibe uma mensagem de erro informando que a página não foi encontrada. <br/> 
+b) O administrador é redirecionado a tela inicial para escolher uma página válida. <br/>
 
-**Pós-condições**: O que deve ser verdade depois que o caso de uso é concluído com sucesso.
+**Pós-condições**: O conteúdo da página informativa é atualizado, criado ou excluído, e as informações corretas são exibidas para os usuários finais.
 
 #### Enviar notificação do trabalho voluntário (CSU012) JOÃO
 
