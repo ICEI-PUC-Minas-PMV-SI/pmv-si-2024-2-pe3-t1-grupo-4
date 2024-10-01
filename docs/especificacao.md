@@ -194,7 +194,7 @@ d)  A conta do patrocinador é excluída do sistema. <br>
 
 #### Gerenciar perfil das ONGs (CSU04)
 
-**Sumário**: Este caso de uso permite que a ONG gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que a ONG possa atualizar seus dados de contato, criar demandas para recrutar voluntários e acompanhar suas demandas e possíveis voluntários.
+**Sumário**: Este caso de uso permite que o representante da ONG gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o representante da ONG possa atualizar seus dados de contato, criar demandas para recrutar voluntários e acompanhar suas demandas e possíveis voluntários.
 
 **Ator Primário**: ONG.
 
