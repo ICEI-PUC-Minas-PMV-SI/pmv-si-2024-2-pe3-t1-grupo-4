@@ -30,14 +30,14 @@ O Conecta não gerencia compensações financeiras para os voluntários, nem o p
 
 | # 	| Benefício 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 | Valor para o Cliente |
 |----|---------------------------------------------------|----------------------|
-| 1 	| Facilidade no cadastro e gerenciamento de demandas tecnológicas. | Essencial |
-| 2 	| Facilidade na comunicação entre ONGs, voluntários e patrocinadores. | Essencial |
-| 3 	| Facilidade em consultar demandas disponíveis. | Essencial |
-| 4 	| Facilidade ao se candidatar a demandas. | Essencial |
-| 5 	| Segurança no acesso e compartilhamento de dados. | Essencial |
-| 6 	| Interface intuitiva e responsiva para dispositivos móveis e desktop. 	| Essencial |
-| 7 	| Notificações automáticas sobre novas oportunidades. | Recomendável |
-| 8 	| Acesso rápido a histórico de colaborações. | Recomendável |
+| 1 | Facilidade no cadastro e gerenciamento de demandas tecnológicas. | Essencial |
+| 2 | Facilidade na comunicação entre ONGs, voluntários e patrocinadores. | Essencial |
+| 3 | Facilidade em consultar demandas disponíveis. | Essencial |
+| 4 | Facilidade ao se candidatar a demandas. | Essencial |
+| 5 | Segurança no acesso e compartilhamento de dados. | Essencial |
+| 6 | Interface intuitiva e responsiva para dispositivos móveis e desktop. 	| Essencial |
+| 7 | Notificações automáticas sobre novas oportunidades. | Recomendável |
+| 8 | Acesso rápido a histórico de colaborações. | Recomendável |
 
 ## 3.3 Descrição geral do produto
 
@@ -65,13 +65,13 @@ O Conecta não gerencia compensações financeiras para os voluntários, nem o p
 
 | Código | Requisito Não Funcional (Restrição) 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	|
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RNF1 	 | O sistema deve oferecer uma interface com design responsivo que se adapte aos dispositivos móveis e desktops.	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	|
-| RNF2 	 | As senhas dos usuários devem ser criptografadas antes de serem armazenadas no banco de dados.	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	|
-| RNF3 	 | O sistema deve fornecer feedback visual claro para ações do usuário, como confirmações de envio e mensagens de erro. 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 |
-| RFN4 	 | O sistema deve ser capaz de ser executado nas versões mais recentes dos principais navegadores do mercado, como: Chrome, Firefox, Edge e Safari. 	 	 	 	 	 	 	 |
-| RNF5 	 | O sistema deve ter um tempo de resposta inferior a 3 segundos, como processamento de formulários e buscas. 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 |
-| RNF6 	 | O sistema deve ter um tempo de resposta inferior a 5 segundos para a renderização de páginas e navegação geral, para assegurar uma boa experiência do usuário. |
-| RNF7 	 | O sistema deve ter um design modular que facilite a adição de novos recursos e funcionalidades sem a necessidade de reescrever código existente. 	 	 	 	 	 	 	 |
+| RNF1 | O sistema deve oferecer uma interface com design responsivo que se adapte aos dispositivos móveis e desktops. |
+| RNF2 | As senhas dos usuários devem ser criptografadas antes de serem armazenadas no banco de dados. |
+| RNF3 | O sistema deve fornecer feedback visual claro para ações do usuário, como confirmações de envio e mensagens de erro. 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 |
+| RFN4 | O sistema deve ser capaz de ser executado nas versões mais recentes dos principais navegadores do mercado, como: Chrome, Firefox, Edge e Safari. |
+| RNF5 | O sistema deve ter um tempo de resposta inferior a 3 segundos, como processamento de formulários e buscas. |
+| RNF6 | O sistema deve ter um tempo de resposta inferior a 5 segundos para a renderização de páginas e navegação geral, para assegurar uma boa experiência do usuário. |
+| RNF7 | O sistema deve ter um design modular que facilite a adição de novos recursos e funcionalidades sem a necessidade de reescrever código existente. |
 
 ### 3.3.3 Usuários 
 
