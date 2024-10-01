@@ -7,7 +7,7 @@ Descrever e especificar as necessidades para o desenvolvimento do sistema web qu
 
 ## 3.2 Escopo do produto
 
-### 3.2.1 Nome do produto e seus componentes principais
+### 3.2.1 Conecta e seus componentes principais
 O Conecta possui os seguintes componentes principais:
 
 * Módulo de Cadastro de ONGs: Permite o registro de organizações não governamentais, incluindo dados como área de atuação, localização, e tipo de atividades que necessitam de voluntários.
@@ -91,7 +91,7 @@ Como observado no diagrama de casos de uso da Figura 1, o representante da ONG p
  
 ### 3.4.2 Descrições de Casos de Uso
 
-#### Gerenciar o acesso das ONGs (CSU01) ALICE
+#### Gerenciar o acesso das ONGs (CSU01)
 
 **Sumário**: Este caso de uso permite que o representante da ONG gerencie seu acesso na plataforma, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o representante da ONG tenha controle sobre suas informações dentro do sistema.
 
@@ -158,7 +158,7 @@ d)	Conta do voluntário é excluída do sistema.
 
 **Pós-condições**: Conta do voluntário deve existir ou ser excluída.
 
-#### Gerenciar acesso do patrocinador (CSU03) OMAR
+#### Gerenciar acesso do patrocinador (CSU03)
 
 **Sumário**: Este caso de uso permite que o patrocinador gerencie seu acesso na plataforma, incluindo a criação, modificação e exclusão de sua conta. O objetivo é garantir que o patrocinador tenha controle total sobre suas informações dentro do sistema.
 
@@ -257,7 +257,7 @@ d)  A conta do voluntário é excluída do sistema.
 
 **Pós-condições**: O perfil do voluntário é criado, atualizado ou excluído, conforme as ações realizadas.
 
-#### Gerenciar perfil do patrocinador (CSU06) ALICE
+#### Gerenciar perfil do patrocinador (CSU06)
 
 **Sumário**: Este caso de uso permite que o patrocinador gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o patrocinador possa atualizar seus dados de contato, informações da empresa, e acompanhar seu envolvimento em projetos de suporte a ONGs.
 
@@ -294,12 +294,14 @@ c)  O patrocinador ajusta as informações e tenta salvar novamente. <br>
 **Pré-condições:** O Representante deve estar autenticado e validado pelo sistema.
 
 **Fluxo Principal**:
+
 1) 	O Representante requisita gestão de demandas.
 2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma demanda.
 3) 	O Representante seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
 4) 	Se o Representante desejar continuar com a gestão de demandas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
 **Fluxo Alternativo:** Inclusão
+
 a) O Representante requisita a inclusão de uma nova demanda. <br/>
 b) O Sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
 c) O Representante preenche o formulário com as informações solicitadas. <br/>
@@ -308,6 +310,7 @@ d) O Sistema valida os dados fornecidos e uma nova demanda é incluída no siste
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Consulta
+
 a) O Representante requisita a consulta de uma demanda, podendo buscar pelo tipo e status. <br/>
 b) O Sistema apresenta a lista de demandas que atendam aos critérios de busca. <br/>
 c) O Representante seleciona uma demanda da lista. <br/>
@@ -316,6 +319,7 @@ d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Alteração
+
 a) O Representante seleciona uma demanda existente para alterar e solicita a edição dos seus dados. <br/>
 b) O sistema exibe as informações atuais do perfil da demanda. <br/>
 c) O Representante altera os dados desejados. <br/>
@@ -377,6 +381,7 @@ d)  Feedback é removido da página.
 4) 	Se o Voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
 **Fluxo Alternativo:** Inclusão
+
 a) O Voluntário requisita a inclusão de uma nova candidatura. <br/>
 b) O Sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
 c) O Voluntário preenche o formulário com as informações solicitadas. <br/>
@@ -385,6 +390,7 @@ d) O Sistema valida os dados fornecidos e uma nova candidatura é incluída no s
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Consulta
+
 a) O Voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status.
 b) O Sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
 c) O Voluntário seleciona uma candidatura da lista. <br/>
@@ -393,6 +399,7 @@ d) O Sistema exibe os detalhes da demanda selecionada. <br/>
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Alteração
+
 a) O Voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
 b) O Sistema apresenta os dados atuais da candidatura para edição. <br/>
 c) O Representante altera os dados desejados. <br/>
@@ -401,6 +408,7 @@ d) O Sistema valida as informações e salva as alterações.
 O Sistema retorna ao início do fluxo principal.
 
 **Fluxo Alternativo:** Remoção
+
 a) O Voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
 b) O Sistema valida se a demanda pode ser excluída. <br/>
 c) A demanda existente é removida do sistema. <br/>
@@ -409,7 +417,7 @@ O Sistema retorna ao início do fluxo principal.
 
 Pós-condições:  Uma candidatura foi inserida, removida, alterada ou consultada com sucesso, de acordo com a operação escolhida pelo Voluntário de TI.
 
-#### Gerenciar patrocínios (CSU010) OMAR
+#### Gerenciar patrocínios (CSU010)
 
 **Sumário**: Este caso de uso permite que as ONGs gerenciem os patrocínios recebidos e que os patrocinadores possam se conectar com as ONGs. O objetivo é facilitar a interação entre ONGs e patrocinadores, garantindo que os patrocínios sejam registrados e acompanhados de maneira eficaz.
 
@@ -526,10 +534,12 @@ c)  Descreva o fluxo alternativo caso houver... <br>
 4)  O Voluntário de TI recebe a notificação e acessa as demandas recomendadas.
 
 **Fluxo Alternativo**: Nenhuma demanda disponível.
+
 a)  Se o Sistema não encontrar nenhuma demanda correspondente, ele notifica o Voluntário de TI informando que não há novas demandas disponíveis no momento. <br/>
 b)  O Sistema retorna ao início do fluxo principal e permanece aguardando novas demandas. <br/>
 
 **Fluxo Alternativo**: Voluntário ignora a recomendação.
+
 a)  Se o Voluntário optar por não visualizar as recomendações no momento, o Sistema mantém as recomendações no histórico de notificações para consulta posterior. <br/>
 b)  O Voluntário pode acessar as recomendações quando desejar. <br/>
 
