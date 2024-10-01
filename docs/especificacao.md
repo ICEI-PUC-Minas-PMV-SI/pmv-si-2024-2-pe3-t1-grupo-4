@@ -202,7 +202,7 @@ d)  A conta do patrocinador é excluída do sistema. <br>
 
 **Pré-condições**: A ONG deve estar cadastrada no sistema com um login e senha válidos.
 
-**Fluxo Principal**:Criar perfil da ONG
+**Fluxo Principal**: Criar perfil da ONG.
 
 1)  A ONG acessa a página de cadastro do sistema.
 2)  Insere seus dados.
