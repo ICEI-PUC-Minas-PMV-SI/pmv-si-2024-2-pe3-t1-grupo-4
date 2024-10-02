@@ -196,7 +196,7 @@ d)  A conta do patrocinador é excluída do sistema. <br>
 
 **Sumário**: Este caso de uso permite que o representante da ONG gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o representante da ONG possa atualizar seus dados de contato, criar demandas para recrutar voluntários e acompanhar suas demandas e possíveis voluntários.
 
-**Ator Primário**: ONG.
+**Ator Primário**: Representante da ONG.
 
 **Ator Secundário**: Administrador.
 
@@ -211,15 +211,15 @@ d)  A conta do patrocinador é excluída do sistema. <br>
 
 **Fluxo Alternativo**: Editar perfil da ONG
 
-a) A ONG faz login no sistema e acessa a área de perfil. <br/> 
+a) O representante da ONG faz login no sistema e acessa a área de perfil. <br/> 
 b) O sistema exibe as informações atuais do perfil da ONG. <br/> 
-c) A ONG pode editar as informações de contato, como endereço de e-mail, número de contato e as demandas. <br/> 
-d) A ONG confirma as alterações clicando em "Salvar". <br/> 
+c)O representante da ONG pode editar as informações de contato, como endereço de e-mail, número de contato e as demandas. <br/> 
+d) O representante da ONG confirma as alterações clicando em "Salvar". <br/> 
 e) O sistema valida as informações e salva as alterações. <br/> 
 
 **Fluxo Alternativo**: Exclusão de perfil da ONG.
 
-a)  A ONG acessa a página de perfil.  <br/> 
+a)  O representante da ONG acessa a página de perfil.  <br/> 
 b)  Seleciona a opção de excluir conta.  <br/> 
 c)  Confirma a exclusão.  <br/> 
 d)  A conta da ONG é excluída do sistema. <br/> 
@@ -455,7 +455,7 @@ c)  O sistema remove o patrocínio da lista. <br>
 
 **Ator Primário**: Administrador.
 
-**Ator Secundário**: Sistema.
+**Ator Secundário**: Não existe.
 
 **Pré-condições**: O administrador deve estar autenticado no sistema e possuir permissões para gerenciar o conteúdo das páginas informativas.
 
