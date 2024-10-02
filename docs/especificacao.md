@@ -204,7 +204,7 @@ d)  A conta do patrocinador é excluída do sistema. <br>
 
 **Fluxo Principal**: Criar perfil da ONG.
 
-1)  A ONG acessa a página de cadastro do sistema.
+1)  O representante da ONG acessa a página de cadastro do sistema.
 2)  Insere seus dados.
 3)  O sistema valida os dados fornecidos.
 4)  O perfil da ONG é criado.
