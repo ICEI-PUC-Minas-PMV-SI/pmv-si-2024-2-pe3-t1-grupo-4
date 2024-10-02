@@ -590,15 +590,16 @@ c)  O usuário continua a interagir com o sistema normalmente. <br>
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
 
 #### Figura 2: Diagrama de Classes do Sistema.
-![dcu](assets/img.png)
+![dcu](assets/diagrama-de-classes.jpg)
 
 ### 3.4.4 Descrições das Classes 
 
-| # | Nome | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| 1 |   Aluno | Cadastro de informações relativas aos alunos. |
-| 2 | Curso |   Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |   Matrícula | Cadastro de Matrículas de alunos nos cursos. |
-| 4 |   Turma | Cadastro de turmas.
-| 5 |   Professor | Cadastro geral de professores que ministram as disciplinas. |
-| ... | ... |   ... |
+| # | Nome         | Descrição                                                                                                                                                                                |
+|---|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | Usuário      | Representa um usuário genérico no sistema, contendo informações como nome, email, imagem, e senha. A classe inclui métodos para criar, consultar, atualizar e deletar usuários.          |
+| 2 | ONG          | Herda de Usuário. Representa uma organização sem fins lucrativos (ONG). Armazena informações como CNPJ, telefone, endereço, e redes sociais. Está associada a demandas e patrocinadores. |
+| 3 | Voluntário   | Herda de Usuário. Representa uma pessoa que atua como voluntária, com atributos como CPF e telefone. Pode se candidatar a demandas e fornecer feedbacks.                                 |
+| 4 | Patrocinador | Herda de Usuário. Representa uma entidade ou pessoa que patrocina ONGs. Possui atributos como CNPJ, CPF, e telefone, e métodos para criar patrocinar e remover patrocínios.              |
+| 5 | Demanda      | Representa uma necessidade ou tarefa aberta por uma ONG, com informações como nome, descrição, status, tipo, e data de criação. Está vinculada a voluntários e feedbacks.                |
+| 6 | Feedback     | Representa comentário feito por um voluntário em uma demanda. Contém atributos como o ID do voluntário e o comentário. Tem métodos para criar, atualizar e deletar.                      |
+| 7 | Endereço     | Representa o endereço de uma ONG, com atributos como CEP, rua, número, cidade, e estado. Faz parte da classe ONG.                                                                        |
