@@ -198,15 +198,16 @@ d) 	A conta do patrocinador é excluída do sistema. <br>
 #### Gerenciar perfil das ONGs (CSU04)
 
 **Sumário**: Este caso de uso permite que o representante da ONG gerencie as informações do seu perfil no sistema. O objetivo principal é garantir que o representante da ONG possa atualizar seus dados de contato, criar demandas para recrutar voluntários e acompanhar suas demandas e possíveis voluntários.
+
 **Ator Primário**: Representante da ONG.
 
 **Ator Secundário**: Administrador.
 
-**Pré-condições**: O representante da ONG deve estar cadastrada no sistema com um login e senha válidos.
+**Pré-condições**: O representante da ONG deve estar cadastrado no sistema com um login e senha válidos.
 
-**Fluxo Principal**: Adicionar título do fluxo principal. 
+**Fluxo Principal**: Criar perfil da ONG.
 
-1) 	O representante da ONG acessa a página de cadastro do sistema.
+1)  O representante da ONG acessa a página de cadastro do sistema.
 2)  Insere seus dados.
 3)  O sistema valida os dados fornecidos.
 4)  O perfil da ONG é criado.
