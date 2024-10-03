@@ -106,7 +106,7 @@ Como observado no diagrama de casos de uso da Figura 1, o representante da ONG p
 
 **Fluxo Principal**: Cadastro da ONG.
 
-1) 	O representante da ONG acessa a página de login do sistema.
+1) 	O representante da ONG acessa a página de login.
 2) 	Insere seus dados.
 3) 	O sistema valida os dados fornecidos.
 4) 	O cadastro da ONG é criado.
@@ -114,17 +114,17 @@ Como observado no diagrama de casos de uso da Figura 1, o representante da ONG p
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a) 	O representante da ONG acessa a página de editar perfil. <br>
-b) 	Seleciona a opção de alterar senha. <br>
-c) 	Insere a senha atual e a nova senha. <br>
-d) 	A senha do representante da ONG é alterada. <br>
+a)	O representante da ONG acessa a página de editar perfil. <br>
+b)	Seleciona a opção de alterar senha. <br>
+c)	Insere a senha atual e a nova senha. <br>
+d)	A senha do representante da ONG é alterada. <br>
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
-a) 	O representante da ONG acessa a página de editar perfil. <br>
-b) 	Seleciona a opção de excluir conta. <br>
-c) 	Confirma a exclusão. <br>
-d) 	Conta do representante da ONG é excluída do sistema. <br>
+a)	O representante da ONG acessa a página de editar perfil. <br>
+b)	Seleciona a opção de excluir conta. <br>
+c)	Confirma a exclusão. <br>
+d)	Conta do representante da ONG é excluída. <br>
 
 **Pós-condições**: Conta do representante da ONG deve existir ou ser excluída.
 
@@ -147,10 +147,10 @@ d) 	Conta do representante da ONG é excluída do sistema. <br>
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a) 	O voluntário acessa a página de editar perfil. <br>
-b) 	Seleciona a opção de alterar senha. <br>
-c) 	Insere a senha atual e a nova senha. <br>
-d) 	A senha do voluntário é alterada. <br>
+a)	O voluntário acessa a página de editar perfil. <br>
+b)	Seleciona a opção de alterar senha. <br>
+c)	Insere a senha atual e a nova senha. <br>
+d)	A senha do voluntário é alterada. <br>
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
@@ -173,7 +173,7 @@ d)	Conta do voluntário é excluída do sistema. <br>
 
 **Fluxo Principal**: Cadastro do patrocinador.
 
-1) 	O patrocinador acessa a página de cadastro no sistema.
+1) 	O patrocinador acessa a página de cadastro.
 2) 	O patrocinador insere seus dados pessoais e de contato.
 3) 	O sistema valida as informações fornecidas.
 4) 	A conta do patrocinador é criada.
@@ -181,17 +181,17 @@ d)	Conta do voluntário é excluída do sistema. <br>
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a) 	O patrocinador acessa a página de editar perfil. <br>
-b) 	Seleciona a opção de alterar senha. <br>
-c) 	Insere a senha atual e a nova senha. <br>
-d) 	A senha do patrocinador é alterada. <br>
+a)	O patrocinador acessa a página de editar perfil. <br>
+b)	Seleciona a opção de alterar senha. <br>
+c)	Insere a senha atual e a nova senha. <br>
+d)	A senha do patrocinador é alterada. <br>
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
-a) 	O patrocinador acessa a página de editar perfil. <br>
-b) 	Seleciona a opção de excluir conta. <br>
-c) 	Confirma a exclusão. <br>
-d) 	A conta do patrocinador é excluída do sistema. <br>
+a)	O patrocinador acessa a página de editar perfil. <br>
+b)	Seleciona a opção de excluir conta. <br>
+c)	Confirma a exclusão. <br>
+d)	A conta do patrocinador é excluída do sistema. <br>
 
 **Pós-condições**: A conta do patrocinador deve existir ou ser excluída, conforme as ações realizadas.
 
@@ -207,7 +207,7 @@ d) 	A conta do patrocinador é excluída do sistema. <br>
 
 **Fluxo Principal**: Criar perfil da ONG.
 
-1)  O representante da ONG acessa a página de cadastro do sistema.
+1)  O representante da ONG acessa a página de cadastro.
 2)  Insere seus dados.
 3)  O sistema valida os dados fornecidos.
 4)  O perfil da ONG é criado.
@@ -215,7 +215,7 @@ d) 	A conta do patrocinador é excluída do sistema. <br>
 **Fluxo Alternativo**: Editar perfil da ONG.
 
 a)  O representante da ONG faz login no sistema e acessa a área de perfil. <br>
-b)  O sistema exibe as informações atuais do perfil da ONG. <br>
+b)  É exibida as informações atuais do perfil da ONG. <br>
 c)  O representante da ONG pode editar as informações de contato, como endereço de e-mail, número de contato e as demandas. <br>
 d)  O representante da ONG confirma as alterações clicando em "Salvar". <br>
 e)  O sistema valida as informações e salva as alterações. <br>
@@ -241,14 +241,14 @@ d)  A conta da ONG é excluída do sistema. <br>
 
 **Fluxo Principal**: Criar perfil do voluntário.
 
-1) 	O voluntário acessa a página de cadastro do sistema.
+1) 	O voluntário acessa a página de cadastro.
 2) 	Insere seus dados.
 3) 	O sistema valida os dados fornecidos.
 4) 	O perfil do voluntario é criado.
 
 **Fluxo Alternativo**: Editar perfil do voluntário
 
-a) 	O voluntário faz login no sistema e acessa a área de perfil. <br>
+a) 	O voluntário faz login e acessa a área de perfil. <br>
 b) 	O sistema exibe as informações atuais do perfil do voluntário. <br>
 c) 	O voluntário pode editar as informações do perfil. <br>
 d) 	O voluntário confirma as alterações clicando em "Salvar". <br>
@@ -275,7 +275,7 @@ d) 	A conta do voluntário é excluída do sistema. <br>
 
 **Fluxo Principal**: Criar perfil do patrocinador.
 
-1) 	O patrocinador faz login no sistema e acessa a área de perfil.
+1) 	O patrocinador faz login e acessa a área de perfil.
 2) 	O sistema exibe as informações atuais do perfil do patrocinador.
 3) 	O patrocinador pode editar as informações de contato, como endereço de e-mail, número de telefone e dados da empresa.
 4) 	O patrocinador confirma as alterações clicando em "Salvar".
@@ -283,7 +283,7 @@ d) 	A conta do voluntário é excluída do sistema. <br>
 
 **Fluxo Alternativo**: Editar perfil do patrocinador.
 
-a) 	O patrocinador faz login no sistema e acessa a área de perfil. <br>
+a) 	O patrocinador faz login e acessa a área de perfil. <br>
 b) 	O sistema exibe as informações atuais do perfil do patrocinador. <br>
 c) 	O patrocinador pode editar as informações do perfil. <br>
 d) 	O patrocinador confirma as alterações clicando em "Salvar". <br>
@@ -311,28 +311,28 @@ d) 	A conta do patrocinador é excluída do sistema. <br>
 **Fluxo Principal**: Gerenciar as demandas.
 
 1) 	O representante da ONG requisita gestão de demandas.
-2) 	O sistema apresenta as operações que podem ser realizadas: criação, consulta, alteração e exclusão de dados de uma demanda.
+2) 	É apresentada as operações que podem ser realizadas: criação, consulta, alteração e exclusão de dados de uma demanda.
 3) 	O representante da ONG seleciona a operação desejada: criação, consulta, alteração e exclusão.
 4) 	Após realizar a operação, o sistema confirma a ação e retorna ao menu de gestão de demandas.
 
 **Fluxo Alternativo:** Criar demanda.
 
 a) O representante da ONG requisita a inclusão de uma nova demanda. <br/>
-b) O sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
+b) É apresentado um formulário solicitando o nome, tipo e descrição da demanda. <br/>
 c) O representante da ONG preenche o formulário com as informações solicitadas. <br/>
-d) O sistema valida os dados fornecidos e uma nova demanda é incluída no sistema. <br/>
+d) O sistema valida os dados fornecidos e uma nova demanda é incluída. <br/>
 
 **Fluxo Alternativo:** Consultar a demanda.
 
 a) O representante da ONG requisita a consulta de uma demanda. <br/>
-b) O sistema apresenta a lista de demandas que atendam aos critérios de busca. <br/>
+b) É apresentada a lista de demandas que atendam aos critérios de busca. <br/>
 c) O representante da ONG seleciona uma demanda da lista. <br/>
 d) O sistema exibe os detalhes da demanda selecionada. <br/>
 
 **Fluxo Alternativo:** Editar a demanda.
 
 a) O representante da ONG seleciona uma demanda existente para editar. <br/>
-b) O sistema exibe as informações atuais da demanda. <br/>
+b) É exibido as informações atuais da demanda. <br/>
 c) O representante da ONG altera os dados desejados. <br/>
 d) O sistema valida as informações e salva as alterações da demanda. <br>
 
@@ -340,7 +340,7 @@ d) O sistema valida as informações e salva as alterações da demanda. <br>
 
 a) O representante da ONG seleciona uma demanda existente e requisita a sua remoção. <br/>
 b) O sistema valida se a demanda pode ser excluída. <br/>
-c) A demanda existente é removida do sistema. <br/>
+c) A demanda existente é removida. <br/>
 
 **Pós-condições**: Uma demanda foi criada, consultada, atualizada ou excluída com sucesso, de acordo com a operação escolhida pelo representante da ONG. <br/>
 
@@ -352,13 +352,13 @@ c) A demanda existente é removida do sistema. <br/>
 
 **Ator Secundário**: Representante da ONG.
 
-**Pré-condições**: Voluntário deve ter participado de uma demanda que foi finalizada.
+**Pré-condições**: O voluntário deve ter participado de uma demanda que foi finalizada.
 
 **Fluxo Principal**: Envio de feedback.
 
 1) 	O representante da ONG solicita feedback do voluntário.
 2) 	O voluntário recebe e-mail com link para enviar feedback.
-3) 	O vluntário acessa o link e preenche o formulário.
+3) 	O voluntário acessa o link e preenche o formulário.
 4) 	O feedback é disponibilizado na página da ONG.
 
 **Fluxo Alternativo**: Exclusão de feedback.
@@ -382,37 +382,37 @@ d) 	O feedback é removido da página. <br/>
 
 **Fluxo Principal**: Gerenciar os trabalhos voluntários.
 
-1) 	O voluntário requisita gestão de trabalhos voluntários.
-2) 	O sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma candidatura.
+1) 	O voluntário faz a gestão de trabalhos voluntários.
+2) 	São apresentadas as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma candidatura.
 3) 	O voluntário seleciona a operação desejada: criação, consulta, alteração e exclusão ou opta por finalizar o caso de uso.
 4) 	Se o voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
 **Fluxo Alternativo**: Criar uma solicitação de trabalho voluntário.
 
-a) O voluntário requisita a inclusão de uma nova candidatura. <br/>
-b) O sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
-c) O voluntário preenche o formulário com as informações solicitadas. <br/>
-d) O sistema valida os dados fornecidos e uma nova candidatura é incluída no sistema. <br/>
+a)  O voluntário inclui de uma nova candidatura. <br/>
+b)  É apresentado um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
+c)  O voluntário preenche o formulário com as informações solicitadas. <br/>
+d)  O sistema valida os dados fornecidos e uma nova candidatura é incluída. <br/>
 
 **Fluxo Alternativo**: Consultar uma solicitação de trabalho voluntário.
 
-a) O voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status. <br/>
-b) O sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
-c) O voluntário seleciona uma candidatura da lista. <br/>
-d) O sistema exibe os detalhes da demanda selecionada. <br/>
+a)  O voluntário faz a consulta de uma candidatura, podendo buscar pelo tipo e status. <br/>
+b)  É apresentada a lista de demandas que atendem aos critérios de busca. <br/>
+c)  O voluntário seleciona uma candidatura da lista. <br/>
+d)  O sistema exibe os detalhes da demanda selecionada. <br/>
 
 **Fluxo Alternativo**: Editar uma solicitação de trabalho voluntário.
 
-a) O voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
-b) O sistema apresenta os dados atuais da candidatura para edição. <br/>
-c) O voluntário altera os dados desejados. <br/>
-d) O sistema valida as informações e salva as alterações. <br/>
+a)  O voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
+b)  É apresentado os dados atuais da candidatura para edição. <br/>
+c)  O voluntário altera os dados desejados. <br/>
+d)  O sistema valida as informações e salva as alterações. <br/>
 
 **Fluxo Alternativo**: Excluir uma solicitação de trabalho voluntário.
 
-a) O voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
-b) O sistema valida se a demanda pode ser excluída. <br/>
-c) A demanda existente é removida do sistema. <br/>
+a)  O voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
+b)  O sistema valida se a demanda pode ser excluída. <br/>
+c)  A demanda existente é removida do sistema. <br/>
 
 **Pós-condições**: 	Uma candidatura foi consultada, atualizada ou excluída com sucesso, de acordo com a operação escolhida pelo voluntário.
 
@@ -492,7 +492,7 @@ b)  O administrador é redirecionado a tela inicial para escolher uma página v�
 
 **Ator Secundário**: Voluntário de TI.
 
-**Pré-condições**: O voluntário deve estar cadastrado e vinculado a um projeto na plataforma Conecta, o representante da ONG deve estar autenticado no sistema, o projeto deve estar ativo na plataforma..
+**Pré-condições**: O voluntário deve estar cadastrado e vinculado a um projeto na plataforma Conecta, o representante da ONG deve estar autenticado no sistema, o projeto deve estar ativo na plataforma.
 
 **Fluxo Principal**: Enviar notificação de atualização do projeto.
 
@@ -506,14 +506,16 @@ b)  O administrador é redirecionado a tela inicial para escolher uma página v�
 
 **Fluxo Alternativo**: Falha no envio da notificação.
 
-a) Se o sistema identificar um erro na conexão de rede, exibe uma mensagem de erro e sugere que o representante tente novamente mais tarde. <br>
-b) O sistema armazena a notificação como pendente e tenta enviá-la assim que a conexão for restabelecida. <br>
-c) O representante pode consultar o status do envio no histórico do projeto. <br>
+a) Um erro de rede é identificado. <br>
+b) É exibida uma mensagem de erro sugerindo que o representante tente novamente mais tarde. <br>
+c) O sistema armazena a notificação como pendente e tenta enviá-la assim que a conexão for restabelecida. <br>
+d) O representante pode consultar o status do envio no histórico do projeto. <br>
 
 **Fluxo Alternativo**: Voluntário não vinculado ao projeto.
 
-a) Se o representante tentar enviar uma notificação para um voluntário que não está vinculado ao projeto, o sistema exibe uma mensagem de erro. <br>
-b) O sistema não permite o envio da notificação e solicita que o representante adicione o voluntário ao projeto antes de tentar novamente. <br>
+a) O representante tenta enviar uma notificação para um voluntário que não está vinculado ao projeto. <br>
+b) Uma mensagem de erro é exibida. <br>
+c) O sistema não permite o envio da notificação e solicita que o representante adicione o voluntário ao projeto antes de tentar novamente. <br>
 
 **Pós-condições**: O voluntário é informado sobre as atualizações ou novas tarefas do projeto.
 
@@ -536,12 +538,12 @@ b) O sistema não permite o envio da notificação e solicita que o representant
 
 **Fluxo Alternativo**: Nenhuma demanda disponível.
 
-a) 	Se o sistema não encontrar nenhuma demanda correspondente, ele notifica o voluntário informando que não há novas demandas disponíveis no momento. <br/>
+a) 	o voluntário é informando que não há novas demandas disponíveis no momento. <br/>
 b) 	O sistema retorna ao início do fluxo principal e permanece aguardando novas demandas. <br/>
 
-**Fluxo Alternativo**: Voluntário ignora a recomendação.
+**Fluxo Alternativo**: O voluntário ignora a recomendação.
 
-a) 	Se o voluntário optar por não visualizar as recomendações no momento, o sistema mantém as recomendações no histórico de notificações para consulta posterior. <br/>
+a) 	O sistema mantém as recomendações no histórico de notificações para consulta posterior. <br/>
 b) 	O voluntário pode acessar as recomendações quando desejar. <br/>
 
 **Pós-condições**: O voluntário recebe as recomendações de novas demandas, podendo consultar as oportunidades que melhor correspondem ao seu perfil. Caso não haja demandas disponíveis, o Voluntário é notificado da ausência de recomendações no momento.
@@ -585,7 +587,7 @@ b) 	O sistema retorna para a página inicial. <br>
 1) 	O usuário clica no botão "Sair" disponível no menu do sistema.
 2) 	O sistema exibe uma mensagem de confirmação perguntando se o usuário deseja realmente sair.
 3) 	O usuário confirma que deseja sair clicando em "Sim".
-4) 	O sistema encerra a sessão do usuário e redireciona para a página de login.
+4) 	A sessão é encerrada e o usuário é redirecionado para a página de login.
 5) 	O sistema exibe uma mensagem informando que o logout foi realizado com sucesso.
 
 **Fluxo Alternativo**: Cancelar logout.
@@ -610,11 +612,11 @@ A classe Demanda contém atributos que descrevem o nome, a descrição, o status
 
 | # | Nome         | Descrição                                                                                                                                                                                |
 |---|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | Usuário      | Representa um usuário genérico no sistema, contendo informações como nome, email, imagem, e senha. A classe inclui métodos para criar, consultar, atualizar e deletar usuários.          |
+| 1 | Usuário      | Representa um usuário genérico no sistema, contendo informações como nome, e-mail, imagem e senha. A classe inclui métodos para criar, consultar, atualizar e deletar usuários.          |
 | 2 | ONG          | Herda de Usuário. Representa uma organização sem fins lucrativos (ONG). Armazena informações como CNPJ, telefone, endereço, e redes sociais. Está associada a demandas e patrocinadores. |
 | 3 | Voluntário   | Herda de Usuário. Representa uma pessoa que atua como voluntária, com atributos como CPF e telefone. Pode se candidatar a demandas e fornecer feedbacks.                                 |
 | 4 | Patrocinador | Herda de Usuário. Representa uma entidade ou pessoa que patrocina ONGs. Possui atributos como CNPJ, CPF, e telefone, e métodos para criar patrocinar e remover patrocínios.              |
 | 5 | Demanda      | Representa uma necessidade ou tarefa aberta por uma ONG, com informações como nome, descrição, status, tipo, e data de criação. Está vinculada a voluntários e feedbacks.                |
 | 6 | Feedback     | Representa comentário feito por um voluntário em uma demanda. Contém atributos como o ID do voluntário e o comentário. Tem métodos para criar, atualizar e deletar.                      |
-| 7 | Endereço     | Representa o endereço de uma ONG, com atributos como CEP, rua, número, cidade, e estado. Faz parte da classe ONG.                                                                        |
+| 7 | Endereço     | Representa o endereço de uma ONG, com atributos como CEP, rua, número, cidade e estado. Faz parte da classe ONG.                                                                        |
 
