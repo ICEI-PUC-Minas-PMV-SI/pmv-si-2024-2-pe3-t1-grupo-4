@@ -4,7 +4,7 @@ Nesta seção será apresentada a documentação de requisitos da aplicação Co
 
 ## 3.1 Objetivos deste documento
 
-O objetivo desse documento é descrever e especificar as necessidades para o desenvolvimento do sistema web que facilitará a conexão entre ONGs e voluntários.
+O objetivo desse documento é descrever e especificar as necessidades para o desenvolvimento do sistema web que facilitará a conexão entre ONGs, voluntários de tecnologia e patrocinadores que querem apoiar causas sociais relevantes.
 
 ## 3.2 Escopo do produto
 
@@ -20,7 +20,7 @@ A aplicação web que será desenvolvida para esse projeto será o Conecta, e se
 
 ### 3.2.2 Missão do produto
 
-A missão do Conecta é facilitar a conexão entre ONGs e voluntários de tecnologia, fornecendo uma plataforma de fácil utilização, que centraliza as necessidades das ONGs e as habilidades dos voluntários, promovendo o impacto social positivo por meio do voluntariado.
+A missão do Conecta é facilitar a conexão entre ONGs e voluntários de tecnologia, fornecendo uma plataforma de fácil utilização, que centraliza as necessidades das ONGs e as habilidades dos voluntários, promovendo o impacto social positivo por meio do voluntariado. Além disso, a plataforma também irá facilitar para que patrocinadores possam ajudar nas causas sociais.
 
 ### 3.2.3 Limites do produto
 
@@ -132,7 +132,7 @@ d) 	Conta do representante da ONG é excluída do sistema. <br>
 
 **Sumário**: Este caso de uso permite que o voluntário gerencie seu acesso ao sistema, incluindo a criação, modificação e exclusão de acesso. O objetivo principal é garantir que o voluntário tenha controle sobre suas informações dentro da plataforma.
 
-**Ator Primário**: Voluntário.
+**Ator Primário**: Voluntário de TI.
 
 **Ator Secundário**: Administrador.
 
@@ -140,21 +140,21 @@ d) 	Conta do representante da ONG é excluída do sistema. <br>
 
 **Fluxo Principal**: Cadastro de voluntário.
 
-1) 	Voluntário acessa a página de cadastro.
+1) 	O voluntário acessa a página de cadastro.
 2) 	Insere seus dados.
 3) 	O cadastro do voluntário é criado.
 4) 	O voluntário faz login no sistema.
 
 **Fluxo Alternativo**: Alteração de senha.
 
-a) 	Voluntário acessa a página de editar perfil. <br>
+a) 	O voluntário acessa a página de editar perfil. <br>
 b) 	Seleciona a opção de alterar senha. <br>
 c) 	Insere a senha atual e a nova senha. <br>
 d) 	A senha do voluntário é alterada. <br>
 
 **Fluxo Alternativo**: Exclusão de acesso.
 
-a)	Voluntário acessa a página de editar perfil. <br>
+a)	O voluntário acessa a página de editar perfil. <br>
 b)	Seleciona a opção de excluir conta. <br>
 c)	Confirma a exclusão. <br>
 d)	Conta do voluntário é excluída do sistema. <br>
@@ -239,7 +239,7 @@ d)  A conta da ONG é excluída do sistema. <br>
 
 **Pré-condições**: O voluntário deve estar cadastrado no sistema com um login e senha válidos.
 
-**Fluxo Principal**: Criar perfil do voluntário
+**Fluxo Principal**: Criar perfil do voluntário.
 
 1) 	O voluntário acessa a página de cadastro do sistema.
 2) 	Insere seus dados.
@@ -308,17 +308,17 @@ d) 	A conta do patrocinador é excluída do sistema. <br>
 
 **Pré-condições:** O representante da ONG deve estar autenticado e validado pelo sistema.
 
-**Fluxo Principal**: Adicionar título do fluxo principal.
+**Fluxo Principal**: Gerenciar as demandas.
 
 1) 	O representante da ONG requisita gestão de demandas.
 2) 	O sistema apresenta as operações que podem ser realizadas: criação, consulta, alteração e exclusão de dados de uma demanda.
 3) 	O representante da ONG seleciona a operação desejada: criação, consulta, alteração e exclusão.
-4) 	Se o representante da ONG desejar continuar com a gestão de demandas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+4) 	Após realizar a operação, o sistema confirma a ação e retorna ao menu de gestão de demandas.
 
 **Fluxo Alternativo:** Criar demanda.
 
 a) O representante da ONG requisita a inclusão de uma nova demanda. <br/>
-b) O Sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
+b) O sistema apresenta um formulário solicitando o nome, tipo e descrição da demanda. <br/>
 c) O representante da ONG preenche o formulário com as informações solicitadas. <br/>
 d) O sistema valida os dados fornecidos e uma nova demanda é incluída no sistema. <br/>
 
@@ -348,73 +348,73 @@ c) A demanda existente é removida do sistema. <br/>
 
 **Sumário**: Este caso de uso permite que o voluntário envie, visualize e exclua feedbacks relacionados às demandas que participou. O objetivo principal é coletar experiências dos voluntários para incentivar outros voluntários.
 
-**Ator Primário**: Voluntário.
+**Ator Primário**: Voluntário de TI.
 
-**Ator Secundário**: ONG.
+**Ator Secundário**: Representante da ONG.
 
 **Pré-condições**: Voluntário deve ter participado de uma demanda que foi finalizada.
 
 **Fluxo Principal**: Envio de feedback.
 
-1) 	ONG solicita feedback do voluntário.
-2) 	Voluntário recebe e-mail com link para enviar feedback.
-3) 	Voluntário acessa o link e preenche o formulário.
-4) 	Feedback é disponibilizado na página da ONG.
+1) 	O representante da ONG solicita feedback do voluntário.
+2) 	O voluntário recebe e-mail com link para enviar feedback.
+3) 	O vluntário acessa o link e preenche o formulário.
+4) 	O feedback é disponibilizado na página da ONG.
 
 **Fluxo Alternativo**: Exclusão de feedback.
 
-a) 	Voluntário acessa a página de feedback. <br/>
+a) 	O voluntário acessa a página de feedback. <br/>
 b) 	Seleciona o feedback que deseja excluir. <br/>
 c) 	Confirma a exclusão. <br/>
-d) 	Feedback é removido da página. <br/>
+d) 	O feedback é removido da página. <br/>
 
 **Pós-condições**: Feedback deve ser enviado, visualizado ou excluído.
 
 #### Gerenciar trabalhos voluntários (CSU09)
 
-**Sumário**: O Voluntário de TI realiza a gestão (criação, consulta, alteração e exclusão) dos dados sobre os trabalhos candidatados. O objetivo principal é garantir que o voluntário tenha controle sobre suas candidaturas dentro do sistema.
+**Sumário**: O voluntário realiza a gestão (criação, consulta, alteração e exclusão) dos dados sobre os trabalhos candidatados. O objetivo principal é garantir que o voluntário tenha controle sobre suas candidaturas dentro do sistema.
 
 **Ator Primário**: Voluntário de TI.
 
 **Ator Secundário**: Não existe.
 
-**Pré-condições** O voluntário de TI deve estar autenticado e validado pelo sistema.
+**Pré-condições** O voluntário deve estar autenticado e validado pelo sistema.
 
 **Fluxo Principal**: Gerenciar os trabalhos voluntários.
 
-1) 	O voluntário de TI requisita gestão de trabalhos voluntários.
+1) 	O voluntário requisita gestão de trabalhos voluntários.
 2) 	O sistema apresenta as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma candidatura.
 3) 	O voluntário seleciona a operação desejada: criação, consulta, alteração e exclusão ou opta por finalizar o caso de uso.
 4) 	Se o voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
 
 **Fluxo Alternativo**: Criar uma solicitação de trabalho voluntário.
 
-a) O voluntário de TI requisita a inclusão de uma nova candidatura. <br/>
+a) O voluntário requisita a inclusão de uma nova candidatura. <br/>
 b) O sistema apresenta um formulário solicitando o nome, CPF, e-mail, telefone e descrição de suas capacidades para a candidatura. <br/>
-c) O voluntário de TI preenche o formulário com as informações solicitadas. <br/>
+c) O voluntário preenche o formulário com as informações solicitadas. <br/>
 d) O sistema valida os dados fornecidos e uma nova candidatura é incluída no sistema. <br/>
 
 **Fluxo Alternativo**: Consultar uma solicitação de trabalho voluntário.
 
-a) O voluntário de TI requisita a consulta de uma candidatura, podendo buscar pelo tipo e status. <br/>
+a) O voluntário requisita a consulta de uma candidatura, podendo buscar pelo tipo e status. <br/>
 b) O sistema apresenta a lista de demandas que atendem aos critérios de busca. <br/>
-c) O voluntário de TI seleciona uma candidatura da lista. <br/>
+c) O voluntário seleciona uma candidatura da lista. <br/>
 d) O sistema exibe os detalhes da demanda selecionada. <br/>
 
 **Fluxo Alternativo**: Editar uma solicitação de trabalho voluntário.
 
-a) O voluntário de TI seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
+a) O voluntário seleciona uma candidatura existente para alterar e solicita a edição dos seus dados. <br/>
 b) O sistema apresenta os dados atuais da candidatura para edição. <br/>
-c) O voluntário de TI altera os dados desejados. <br/>
+c) O voluntário altera os dados desejados. <br/>
 d) O sistema valida as informações e salva as alterações. <br/>
 
 **Fluxo Alternativo**: Excluir uma solicitação de trabalho voluntário.
 
-a) O voluntário de TI seleciona uma candidatura existente e requisita a sua remoção. <br/>
+a) O voluntário seleciona uma candidatura existente e requisita a sua remoção. <br/>
 b) O sistema valida se a demanda pode ser excluída. <br/>
 c) A demanda existente é removida do sistema. <br/>
 
-**Pós-condições**: 	Uma candidatura foi consultada, atualizada ou excluída com sucesso, de acordo com a operação escolhida pelo voluntário de TI.
+**Pós-condições**: 	Uma candidatura foi consultada, atualizada ou excluída com sucesso, de acordo com a operação escolhida pelo voluntário.
 
 #### Gerenciar patrocínios (CSU010)
 
@@ -422,7 +422,7 @@ c) A demanda existente é removida do sistema. <br/>
 
 **Ator Primário**: Patrocinador.
 
-**Ator Secundário**: Representante da ONG, Administrador.
+**Ator Secundário**: Representante da ONG.
 
 **Pré-condições**: As ONGs e patrocinadores devem estar cadastrados no sistema e ter acesso ao mesmo.
 
@@ -453,7 +453,7 @@ c) 	O sistema remove o patrocínio da lista. <br>
 
 **Pós-condições**: O patrocínio é registrado, atualizado ou excluído no sistema conforme as ações realizadas, mantendo a lista de patrocínios da ONG organizada e atualizada.
 
-#### Gerenciar conteúdo de páginas informativas (CSU011)
+#### Gerenciar conteúdo de páginas informativas (CSU11)
 
 **Sumário**: O administrador pode gerenciar (criar, editar, excluir) o conteúdo de páginas informativas do sistema. O objetivo principal é garantir que as informações exibidas nas páginas estejam atualizadas e sejam relevantes para os usuários.
 
@@ -479,12 +479,12 @@ c)  O administrador corrige os campos e submete novamente as alterações. <br>
 
 **Fluxo Alternativo**: Página não encontrada.
 
-a)  Se o administrador tentar editar ou excluir uma página que não existe mais, o sistema exibe uma mensagem de erro informando que a página não foi encontrada. <br>
+a)  O administrador tenta editar ou excluir uma página que não existe mais, o sistema exibe uma mensagem de erro informando que a página não foi encontrada. <br>
 b)  O administrador é redirecionado a tela inicial para escolher uma página válida. <br>
 
 **Pós-condições**: O conteúdo da página informativa é atualizado, criado ou excluído, e as informações corretas são exibidas para os usuários finais.
 
-#### Enviar notificação do trabalho voluntário (CSU012)
+#### Enviar notificação do trabalho voluntário (CSU12)
 
 **Sumário**: Descreve o processo de envio de notificações para os voluntários de TI que estão inscritos em um projeto de uma ONG. O objetivo é garantir que os voluntários recebam atualizações sobre o andamento do projeto, novas tarefas e comunicados importantes.
 
@@ -510,43 +510,43 @@ a) Se o sistema identificar um erro na conexão de rede, exibe uma mensagem de e
 b) O sistema armazena a notificação como pendente e tenta enviá-la assim que a conexão for restabelecida. <br>
 c) O representante pode consultar o status do envio no histórico do projeto. <br>
 
-**Fluxo Alternativo**: Voluntário de TI não vinculado ao projeto.
+**Fluxo Alternativo**: Voluntário não vinculado ao projeto.
 
 a) Se o representante tentar enviar uma notificação para um voluntário que não está vinculado ao projeto, o sistema exibe uma mensagem de erro. <br>
 b) O sistema não permite o envio da notificação e solicita que o representante adicione o voluntário ao projeto antes de tentar novamente. <br>
 
-**Pós-condições**: O voluntário de TI é informado sobre as atualizações ou novas tarefas do projeto.
+**Pós-condições**: O voluntário é informado sobre as atualizações ou novas tarefas do projeto.
 
-#### Enviar recomendação de demanda (CSU013)
+#### Enviar recomendação de demanda (CSU13)
 
-**Sumário**: O sistema envia recomendações de demandas voluntárias para o Voluntário de TI, com base no perfil e nas candidaturas anteriores registradas no sistema. O objetivo é facilitar o acesso a novas oportunidades de trabalho voluntário.
+**Sumário**: O sistema envia recomendações de demandas voluntárias para o voluntário, com base no perfil e nas candidaturas anteriores registradas no sistema. O objetivo é facilitar o acesso a novas oportunidades de trabalho voluntário.
 
 **Ator Primário**: Administrador.
 
 **Ator Secundário**: Voluntário de TI.
 
-**Pré-condições**: O voluntário de TI deve estar autenticado e possuir candidaturas ou informações de perfil relevantes registradas no sistema.
+**Pré-condições**: O voluntário deve estar autenticado e possuir candidaturas ou informações de perfil relevantes registradas no sistema.
 
 **Fluxo Principal**: Enviar uma recomendação de demanda.
 
-1) 	O sistema analisa as candidaturas e o perfil do voluntário de TI.
+1) 	O sistema analisa as candidaturas e o perfil do voluntário.
 2) 	O sistema gera uma lista de demandas que se alinham ao perfil do voluntário.
-3) 	O sistema envia uma notificação para o voluntário de TI com as recomendações de demandas disponíveis.
-4) 	O voluntário de TI recebe a notificação e acessa as demandas recomendadas.
+3) 	O sistema envia uma notificação para o voluntário com as recomendações de demandas disponíveis.
+4) 	O voluntário recebe a notificação e acessa as demandas recomendadas.
 
 **Fluxo Alternativo**: Nenhuma demanda disponível.
 
-a) 	Se o sistema não encontrar nenhuma demanda correspondente, ele notifica o voluntário de TI informando que não há novas demandas disponíveis no momento. <br/>
+a) 	Se o sistema não encontrar nenhuma demanda correspondente, ele notifica o voluntário informando que não há novas demandas disponíveis no momento. <br/>
 b) 	O sistema retorna ao início do fluxo principal e permanece aguardando novas demandas. <br/>
 
-**Fluxo Alternativo**: Voluntário de TI ignora a recomendação.
+**Fluxo Alternativo**: Voluntário ignora a recomendação.
 
-a) 	Se o voluntário de TI optar por não visualizar as recomendações no momento, o sistema mantém as recomendações no histórico de notificações para consulta posterior. <br/>
-b) 	O voluntário de TI pode acessar as recomendações quando desejar. <br/>
+a) 	Se o voluntário optar por não visualizar as recomendações no momento, o sistema mantém as recomendações no histórico de notificações para consulta posterior. <br/>
+b) 	O voluntário pode acessar as recomendações quando desejar. <br/>
 
-**Pós-condições**: O voluntário de TI recebe as recomendações de novas demandas, podendo consultar as oportunidades que melhor correspondem ao seu perfil. Caso não haja demandas disponíveis, o Voluntário é notificado da ausência de recomendações no momento.
+**Pós-condições**: O voluntário recebe as recomendações de novas demandas, podendo consultar as oportunidades que melhor correspondem ao seu perfil. Caso não haja demandas disponíveis, o Voluntário é notificado da ausência de recomendações no momento.
 
-#### Entrar do sistema (CSU014)
+#### Entrar do sistema (CSU14)
 
 **Sumário**: Este caso de uso permite que o usuário faça login no sistema de forma segura. O objetivo principal é garantir que as sessões de usuário sejam iniciadas adequadamente.
 
@@ -570,7 +570,7 @@ b) 	O sistema retorna para a página inicial. <br>
 
 **Pós-condições**: A sessão do usuário é iniciada.
 
-#### Sair do sistema (CSU015)
+#### Sair do sistema (CSU15)
 
 **Sumário**: Este caso de uso permite que o usuário saia do sistema de forma segura. O objetivo principal é garantir que as sessões de usuário sejam encerradas adequadamente.
 
@@ -598,10 +598,13 @@ c) 	O usuário continua a interagir com o sistema normalmente. <br>
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+A Figura 2 mostra o diagrama de classes do sistema, possui diversas entidades como usuários, organizações, patrocinadores, voluntários, demandas e feedbacks. A classe principal é Usuário, que contém atributos como nome, e-mail, senha, e métodos para operações CRUD (criação, leitura, atualização, exclusão) e alteração de senha. Dela, derivam três classes: Patrocinador, ONG e Voluntário. A classe Patrocinador tem atributos como CNPJ, CPF e telefone, além de métodos para patrocinar ou remover o patrocínio de uma ONG. A classe ONG inclui informações como CNPJ, telefone, redes sociais e está associada a um Endereço. Ela é responsável por gerar demandas no sistema, e pode ter várias demandas associadas. Já a classe Voluntário possui CPF e telefone, e métodos que permitem ao voluntário candidatar-se a demandas e enviar feedbacks sobre as demandas em que participou. <br>
+
+A classe Demanda contém atributos que descrevem o nome, a descrição, o status e o tipo da demanda, além de métodos para gerenciar (criar, consultar, atualizar, excluir) essas demandas. Cada demanda também pode ter vários feedbacks associados. A classe Feedback, por sua vez, armazena o ID do voluntário que o forneceu e o comentário em si, com métodos para gerenciar o feedback. No que diz respeito às associações, os patrocinadores podem estar vinculados a diversas ONGs, e uma ONG pode ter várias demandas. Voluntários podem se candidatar a várias demandas, e cada demanda pode ter múltiplos voluntários associados. Além disso, uma demanda pode gerar múltiplos feedbacks, fornecendo um ciclo completo de interação entre os atores do sistema. <br>
 
 #### Figura 2: Diagrama de Classes do Sistema.
-![dcu](assets/diagrama-de-classes.jpg)
+
+![dcu](assets/diagrama-de-classe-conecta.png)
 
 ### 3.4.4 Descrições das Classes 
 
