@@ -18,9 +18,11 @@
 
 [9] IBGE. As fundações privadas e associações sem fins lucrativos no Brasil: 2016. Rio de Janeiro: IBGE, 2019.
 
-[10] MISHRA, Sandeep; TIWARI, Akanksha; TRIVEDI, Ved. Volunteer and NGO Matching Platform. Mumbai, India: International Research Journal on Advanced Engineering Hub (IRJAEH), 2024. Disponível em: https://doi.org/10.47392/IRJAEH.2024.0104. Acesso em: 23 ago. 2024.
+[10] LEÃO, Débora Seibert de. **Bem coletivo: proposta de interface para ferramenta digital de busca e oferta de trabalho voluntário com foco no design**. Univates, 2017. Disponível em: <http://hdl.handle.net/10737/1776>. Acesso em: 23 de agosto de 2024.
 
-[11] OLIVEIRA, Lidiane. A Importância do Trabalho Voluntário no Desenvolvimento de Competências do Estudante. Disponível em: https://www.puc-rio.br/ensinopesq/ccpg/pibic/relatorio_resumo2010/resumos/ccs/adm/ADM-Lidiane%20Duarte%20Silva%20de%20Oliveira.pdf. Acesso em: 03 out. 2024.
+[11] MISHRA, Sandeep; TIWARI, Akanksha; TRIVEDI, Ved. Volunteer and NGO Matching Platform. Mumbai, India: International Research Journal on Advanced Engineering Hub (IRJAEH), 2024. Disponível em: https://doi.org/10.47392/IRJAEH.2024.0104. Acesso em: 23 ago. 2024.
 
-[12] PESQUISA VOLUNTARIADO. Disponível em: https://pesquisavoluntariado.org.br/. Acesso em: 03 out. 2024.
+[12] OLIVEIRA, Lidiane. A Importância do Trabalho Voluntário no Desenvolvimento de Competências do Estudante. Disponível em: https://www.puc-rio.br/ensinopesq/ccpg/pibic/relatorio_resumo2010/resumos/ccs/adm/ADM-Lidiane%20Duarte%20Silva%20de%20Oliveira.pdf. Acesso em: 03 out. 2024.
+
+[13] PESQUISA VOLUNTARIADO. Disponível em: https://pesquisavoluntariado.org.br/. Acesso em: 03 out. 2024.
 
