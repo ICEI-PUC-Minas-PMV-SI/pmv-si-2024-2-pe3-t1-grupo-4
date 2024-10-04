@@ -384,8 +384,8 @@ d) 	O feedback é removido da página. <br/>
 
 1) 	O voluntário faz a gestão de trabalhos voluntários.
 2) 	São apresentadas as operações que podem ser realizadas: inclusão, alteração, exclusão e consulta de dados de uma candidatura.
-3) 	O voluntário seleciona a operação desejada: criação, consulta, alteração e exclusão ou opta por finalizar o caso de uso.
-4) 	Se o voluntário desejar continuar com a gestão de candidaturas, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+3) 	O voluntário seleciona a operação desejada: criação, consulta, alteração e exclusão ou opta por finalizar a ação.
+4) 	Após realizar a operação, o sistema confirma a ação e retorna ao menu de gestão de demandas.
 
 **Fluxo Alternativo**: Criar uma solicitação de trabalho voluntário.
 
@@ -538,7 +538,7 @@ c) O sistema não permite o envio da notificação e solicita que o representant
 
 **Fluxo Alternativo**: Nenhuma demanda disponível.
 
-a) 	o voluntário é informando que não há novas demandas disponíveis no momento. <br/>
+a) 	O voluntário é informando que não há novas demandas disponíveis no momento. <br/>
 b) 	O sistema retorna ao início do fluxo principal e permanece aguardando novas demandas. <br/>
 
 **Fluxo Alternativo**: O voluntário ignora a recomendação.
